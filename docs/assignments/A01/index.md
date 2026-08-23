@@ -247,7 +247,7 @@ Currently I am interning at Salas O'Brien as a mechanical engineering blueprint 
 
 As I continue through mechanical engineering, I want to improve my problem-solving skills and become better at using math and physics to solve real problems. I also want to improve my Revit skills and learn more about how engineers go from an idea to a finished design, as this is a major part of my internship.
 
-I am a weightlifting fanatic and love to work out. Currently, I bench 385 pounds and squat 465 pounds. I haven't skipped a day in over two years, and I enjoy it more and more every time I go.
+I am a weightlifting fanatic and love to work out. Currently, I bench 385 pounds and squat 465 pounds. I haven't skipped a day in over lfour years, and I enjoy it more and more every time I go.
 
 This portfolio will show my work throughout the semester. My goal is to include my calculations, design choices, pictures, and final results in a way that another student or engineer can understand.
 
