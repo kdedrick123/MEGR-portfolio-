@@ -151,7 +151,7 @@ The pin also has to be strong enough to handle the force created when the nail c
 
 # Patent Research
 
-For this example, I found a nail clipper patent that uses a similar basic design.
+I found a nail clipper patent that uses a similar basic design.
 
 **Patent Number:** US2664624A
 
@@ -174,11 +174,11 @@ Instead of pushing down on a lever, the user squeezes two handles together. The 
 
 ---
 
-## Alternative Solution 2: Toenail Clipper
+## Alternative Solution 2: Electric Nail Grinder
 
-A larger toenail clipper also performs the same basic function.
+An electric nail grinder performs the same general job of shortening a nail, but it removes material by grinding instead of cutting.
 
-It uses a similar lever design but is normally larger and stronger. This helps it cut thicker nails.
+Instead of using a lever to create a cutting force, a small motor spins an abrasive surface against the nail. This takes longer than using a nail clipper, but it gives the user more control over how much material is removed.
 
 ---
 
