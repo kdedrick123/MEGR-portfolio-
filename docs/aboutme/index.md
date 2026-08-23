@@ -4,7 +4,7 @@
 
 ## Kaleb Dedrick
 
-My name is Kaleb Dedrick, and I am a mechanical engineering student at UNC Charlotte. I chose mechanical engineering because I have always been interested in how machines and mechanical systems work. I enjoy learning how different parts work together and how engineers can improve a design to make it work better.
+My name is Kaleb Dedrick, I am a mechanical engineering student at UNC Charlotte. I chose mechanical engineering because I have always been interested in how machines and mechanical systems work. I enjoy learning how different parts work together and how engineers can improve a design to make it work better.
 
 Currently, I am interning at Salas O'Brien as a mechanical engineering blueprint designer. I have worked on projects involving East Coast naval bases, hospitals, and fire stations. During my internship, I have gained experience using Revit and learning how engineering drawings and designs are developed for real projects.
 
