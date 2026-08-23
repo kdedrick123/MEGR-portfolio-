@@ -113,8 +113,7 @@ For this model, I am assuming the scissors act like simple rigid levers. I am al
 
 ## Component 1: First Blade and Handle
 
-![Full view of scissors](scissors-full.jpg)
-
+![Full view of scissors](scissors-full.jpg.jpeg)
 The first blade and handle are normally made as one piece.
 
 The handle is where the user applies force with their fingers. The blade extends from the pivot point and has a sharp cutting edge.
