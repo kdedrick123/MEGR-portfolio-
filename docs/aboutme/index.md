@@ -1,6 +1,6 @@
 # About Me
 
-<img src="headshot.jpeg" alt="Kaleb Dedrick headshot" width="220" style="float: right; margin-left: 25px; margin-bottom: 15px; border-radius: 8px;">
+<img src="headshot.jpg" alt="Kaleb Dedrick headshot" width="220" style="float: right; margin-left: 25px; margin-bottom: 15px; border-radius: 8px;">
 
 ## Kaleb Dedrick
 
