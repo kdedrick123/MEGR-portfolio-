@@ -126,7 +126,7 @@ The shape of the handle also makes it easier for the user to grip and control th
 
 ## Component 2: Second Blade and Handle
 
-![Scissor blade and handle](scissors-blade.jpg)
+![Scissor blade and handle](scissors-blade.jpg.jpeg)
 
 The second blade and handle work the same basic way as the first side.
 
@@ -140,7 +140,7 @@ The blade shape is important because the two cutting edges need to stay close to
 
 ## Component 3: Pivot Screw
 
-![Scissor pivot screw](scissors-pivot.jpg)
+![Scissor pivot screw](scissors-pivot.jpg.jpeg)
 
 The pivot screw connects the two sides of the scissors together.
 
