@@ -62,19 +62,21 @@ For my own portfolio, I want to keep the website simple and easy to move through
 
 # Task B: Product Analysis
 
-## Product: Nail Clipper
+## Product: Scissors
 
 ### Primary Function
 
-The main engineering function of a nail clipper is to increase the force from a person's finger and use that force to move two cutting edges together.
+The main engineering function of scissors is to take the force from a person's hand and use it to move two cutting blades past each other.
 
-The nail is placed between the cutting edges, and the force from the lever causes the edges to cut through the nail.
+When the handles are squeezed together, the blades rotate around the pivot point and create a cutting force on the material between them.
 
 ---
 
 ## Governing Mechanical Model
 
-The main mechanical idea used in a nail clipper is a lever.
+The main mechanical idea used in scissors is a lever.
+
+Each side of the scissors acts like a lever that rotates around the pivot point.
 
 A simple way to show this is:
 
@@ -86,117 +88,125 @@ Or:
 
 Where:
 
-* **Fin** = force from your finger
-* **Lin** = distance from the pivot to where your finger pushes
-* **Fout** = force at the cutting end
-* **Lout** = distance from the pivot to the cutting end
+* **Fin** = force from your hand
+* **Lin** = distance from the pivot to where your hand applies force
+* **Fout** = force at the cutting point
+* **Lout** = distance from the pivot to where the material is being cut
 
-You can also use mechanical advantage:
+You can also look at the mechanical advantage:
 
 **Mechanical Advantage = Input Distance / Output Distance**
 
-For example, if the distance from the pivot to where you push is 40 mm and the distance to the output point is 10 mm:
+For example, if your hand is 80 mm away from the pivot and the material is being cut 40 mm away from the pivot:
 
-**Mechanical Advantage = 40 / 10 = 4**
+**Mechanical Advantage = 80 / 40 = 2**
 
-This means the clipper can make the output force larger than the force you apply with your finger.
+This means the scissors can create about twice the input force at that cutting point in an ideal case.
 
 ### Assumption
 
-For this model, I am assuming the nail clipper acts like a simple lever. I am also ignoring small amounts of friction and bending in the metal.
+For this model, I am assuming the scissors act like simple rigid levers. I am also ignoring small amounts of friction at the pivot and bending in the blades.
 
 ---
 
 # Component Analysis
 
-## Component 1: Clipper Body and Cutting Jaws
+## Component 1: First Blade and Handle
 
-**[INSERT PHOTO OF NAIL CLIPPER BODY HERE]**
+**[INSERT PHOTO OF FIRST BLADE AND HANDLE HERE]**
 
-The main body of the nail clipper is made from two thin metal pieces. These pieces are connected at the back and have cutting edges at the front.
+The first blade and handle are normally made as one piece.
 
-The cutting edges are curved to better match the shape of a fingernail.
+The handle is where the user applies force with their fingers. The blade extends from the pivot point and has a sharp cutting edge.
 
-The metal body also acts like a spring. When the user lets go of the lever, the body returns toward its original shape and opens the cutting jaws again.
+The length of the handle helps give the user more leverage, while the sharp edge helps reduce the amount of force needed to cut through material.
 
-The thickness of the metal is important because it needs to be flexible enough to move but strong enough that it does not permanently bend.
-
----
-
-## Component 2: Operating Lever
-
-**[INSERT PHOTO OF TOP LEVER HERE]**
-
-The operating lever is the part that the user pushes down with their finger.
-
-The lever is longer than the distance between the pivot and the point where it pushes on the body. This gives the nail clipper mechanical advantage.
-
-The wide top of the lever also gives the user's finger a larger area to push against.
+The shape of the handle also makes it easier for the user to grip and control the scissors.
 
 ---
 
-## Component 3: Pivot Pin
+## Component 2: Second Blade and Handle
 
-**[INSERT PHOTO OF PIVOT PIN HERE]**
+**[INSERT PHOTO OF SECOND BLADE AND HANDLE HERE]**
 
-The pivot pin connects the lever to the main body of the nail clipper.
+The second blade and handle work the same basic way as the first side.
 
-It gives the lever a point to rotate around when the user pushes down.
+This part rotates in the opposite direction around the pivot when the handles are squeezed.
 
-The position of the pivot is important because it affects the mechanical advantage of the lever.
+The two blades slide past each other and create a shearing action that cuts the material.
 
-The pin also has to be strong enough to handle the force created when the nail clipper is used.
+The blade shape is important because the two cutting edges need to stay close together while moving past each other.
+
+---
+
+## Component 3: Pivot Screw
+
+**[INSERT PHOTO OF PIVOT SCREW HERE]**
+
+The pivot screw connects the two sides of the scissors together.
+
+It gives both blades a point to rotate around.
+
+The pivot also keeps the blades lined up so that the cutting edges stay close together while the scissors are being used.
+
+If the pivot is too loose, the blades may spread apart and not cut well. If it is too tight, the scissors may be harder to open and close.
 
 ---
 
 # Patent Research
 
-I found a nail clipper patent that uses a similar basic design.
+I found a scissors patent that uses a similar basic design.
 
-**Patent Number:** US2664624A
+**Patent Number:** US2626460A
 
-**Inventor:** William E. Bassett
+**Inventor:** Leo J. Wahl
 
-**Patent Title:** Nail Clipper
+**Patent Title:** Scissors
 
 **Patent URL:**
-https://patents.google.com/patent/US2664624A/en
+https://patents.google.com/patent/US2626460A/en
 
-The patent shows a nail clipper that uses a lever, a pin, and cutting jaws. These parts work together in a similar way to modern nail clippers.
-
----
-
-## Alternative Solution 1: Nail Scissors
-
-Nail scissors perform the same main job of cutting nails.
-
-Instead of pushing down on a lever, the user squeezes two handles together. The blades rotate around a pivot and cut through the nail.
+The patent describes scissors that use two blade sections connected together at a pivot. It also discusses the importance of controlling the friction and adjustment between the two parts.
 
 ---
 
-## Alternative Solution 2: Electric Nail Grinder
+## Alternative Solution 1: Utility Knife
 
-An electric nail grinder performs the same general job of shortening a nail, but it removes material by grinding instead of cutting.
+A utility knife can perform the same basic job of cutting material.
 
-Instead of using a lever to create a cutting force, a small motor spins an abrasive surface against the nail. This takes longer than using a nail clipper, but it gives the user more control over how much material is removed.
+Instead of using two blades that move past each other, it uses one sharp blade that is pulled or pushed through the material.
+
+A utility knife may work better for cutting things like cardboard or thick sheets, but it does not give the same control as scissors for some shapes and smaller cuts.
+
+---
+
+## Alternative Solution 2: Rotary Cutter
+
+A rotary cutter can also be used to cut materials such as paper, fabric, or thin sheets.
+
+Instead of using two blades, it uses a round blade that rolls across the material.
+
+This design can make long and smooth cuts, but it usually needs a flat surface underneath the material.
 
 ---
 
 ## Design Decision
 
-One design choice is the length of the top lever.
+One design choice is the length of the handles compared to the blades.
 
-A longer lever gives the user more mechanical advantage. This means the user does not have to push as hard to create enough force at the cutting edge.
+Longer handles give the user more leverage and can create more force at the cutting point.
 
 The basic idea is:
 
 **Mechanical Advantage = Input Distance / Output Distance**
 
-So if the input distance gets longer, the mechanical advantage also gets larger.
+If the input distance is longer, the mechanical advantage is larger.
 
-I think the lever was made this length so the nail clipper is easy to use without making it too large.
+I think the handles were designed this way so the user can create enough cutting force without having to squeeze extremely hard.
 
-Another design choice is the curved cutting edge. Fingernails are curved, so the curved edge helps the clipper follow the shape of the nail.
+Another design choice is the shape of the cutting blades. The blades are long and thin so they can slide past each other while staying close enough to cut the material.
+
+The pivot position is also important because it controls the distance between the user's hand and the cutting point.
 
 ---
 
@@ -234,11 +244,11 @@ For every assignment, I will show my important equations, assumptions, calculati
 
 My name is Kaleb Dedrick, and I am a mechanical engineering student at UNC Charlotte. I chose mechanical engineering because I have always been interested in how machines and mechanical systems work.
 
-Currently I am interning at Salas Obrien as a mechanical engineer blueprint designer on the east coast naval bases, hospital's and fire stations
+Currently I am interning at Salas O'Brien as a mechanical engineering blueprint designer working on East Coast naval bases, hospitals, and fire stations.
 
-As I continue through mechanical engineering, I want to improve my problem-solving skills and become better at using math and physics to solve real problems. I also want to improve my Revit skills and learn more about how engineers go from an idea to a finished design as this is a major thing in my internship.
+As I continue through mechanical engineering, I want to improve my problem-solving skills and become better at using math and physics to solve real problems. I also want to improve my Revit skills and learn more about how engineers go from an idea to a finished design, as this is a major part of my internship.
 
-One thing I am learning is that engineering is not only about getting the correct answer. Engineers also need to be able to explain why they made certain choices and show the work that supports those choices.
+I am a weightlifting fanatic and love to work out. Currently, I bench 385 pounds and squat 465 pounds. I haven't skipped a day in over two years, and I enjoy it more and more every time I go.
 
 This portfolio will show my work throughout the semester. My goal is to include my calculations, design choices, pictures, and final results in a way that another student or engineer can understand.
 
@@ -256,4 +266,4 @@ Right now, I understand the basic idea of defending an engineering decision, but
 
 ## Time Spent
 
-I spent approximately nine and a half hours completing this assignment (I'm not a good coder and the sight hurt my eyes to look at before I found a YouTube video explaining it.)
+I spent approximately nine and a half hours completing this assignment. I'm not a good coder, and the site hurt my eyes to look at before I found a YouTube video explaining it.
