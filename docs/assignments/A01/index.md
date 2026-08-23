@@ -234,9 +234,9 @@ For every assignment, I will show my important equations, assumptions, calculati
 
 My name is Kaleb Dedrick, and I am a mechanical engineering student at UNC Charlotte. I chose mechanical engineering because I have always been interested in how machines and mechanical systems work.
 
-I enjoy learning how different parts work together and how things can be designed to work better. I am interested in areas like mechanical design, vehicles, machines, manufacturing, and systems that deal with forces and motion.
+Currently I am interning at Salas Obrien as a mechanical engineer blueprint designer on the east coast naval bases, hospital's and fire stations
 
-As I continue through mechanical engineering, I want to improve my problem-solving skills and become better at using math and physics to solve real problems. I also want to improve my CAD skills and learn more about how engineers go from an idea to a finished design.
+As I continue through mechanical engineering, I want to improve my problem-solving skills and become better at using math and physics to solve real problems. I also want to improve my Revit skills and learn more about how engineers go from an idea to a finished design as this is a major thing in my internship.
 
 One thing I am learning is that engineering is not only about getting the correct answer. Engineers also need to be able to explain why they made certain choices and show the work that supports those choices.
 
@@ -256,4 +256,4 @@ Right now, I understand the basic idea of defending an engineering decision, but
 
 ## Time Spent
 
-I spent approximately **[ENTER YOUR ACTUAL TIME] hours** completing this assignment.
+I spent approximately nine and a half hours completing this assignment (I'm not a good coder and the sight hurt my eyes to look at before I found a YouTube video explaining it.)
