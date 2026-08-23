@@ -113,7 +113,7 @@ For this model, I am assuming the scissors act like simple rigid levers. I am al
 
 ## Component 1: First Blade and Handle
 
-**[INSERT PHOTO OF FIRST BLADE AND HANDLE HERE]**
+![Full view of scissors](scissors-full.jpg)
 
 The first blade and handle are normally made as one piece.
 
@@ -127,7 +127,7 @@ The shape of the handle also makes it easier for the user to grip and control th
 
 ## Component 2: Second Blade and Handle
 
-**[INSERT PHOTO OF SECOND BLADE AND HANDLE HERE]**
+![Scissor blade and handle](scissors-blade.jpg)
 
 The second blade and handle work the same basic way as the first side.
 
@@ -141,7 +141,7 @@ The blade shape is important because the two cutting edges need to stay close to
 
 ## Component 3: Pivot Screw
 
-**[INSERT PHOTO OF PIVOT SCREW HERE]**
+![Scissor pivot screw](scissors-pivot.jpg)
 
 The pivot screw connects the two sides of the scissors together.
 
