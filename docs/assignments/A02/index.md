@@ -76,6 +76,8 @@ The total member length is:
 
 I drew the full truss free body diagram by hand.
 
+<img src="FBD.png" align="right" width="320">
+
 The support reactions are:
 
 - A_x
