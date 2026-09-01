@@ -549,10 +549,12 @@ I also learned that fully defining the SolidWorks sketch is important. When the 
 
 # CAD Files
 
-- [Truss Body STEP](ADD LINK HERE)
-- [Pins STEP](ADD LINK HERE)
-- [Complete Truss STEP](ADD LINK HERE)
-- [Dimensioned Drawing PDF](ADD LINK HERE)
+- Truss Body 
+- Pins
+- Finished Truss
+- Dimensions
+- FBD
+- (all linked in the PDF)
 
 **Total project time:**  
-ADD YOUR ACTUAL TIME HERE
+This project took me around 2 hours to finish. Solidworks being the Easiest as i use it every day at my job.
