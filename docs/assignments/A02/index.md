@@ -12,7 +12,7 @@ The required dimensions were:
 
 **b = 0.30 m**
 
-The final truss has five joints labeled A, B, C, D, and E.
+The truss has five joints labeled A, B, C, D, and E.
 
 - A = pin support
 - B = roller support
@@ -20,15 +20,11 @@ The final truss has five joints labeled A, B, C, D, and E.
 - D = downward load
 - E = center joint
 
-The top length is:
+The main dimensions are:
 
 **BA = 1.20 m**
 
-The bottom length is:
-
 **CD = 0.40 m**
-
-The height is:
 
 **b = 0.30 m**
 
@@ -38,9 +34,7 @@ The height is:
 
 ## 2a(i) Member Lengths
 
-The two outside diagonal members are BC and DA.
-
-Their horizontal distance is 0.40 m and their vertical distance is 0.30 m.
+The outside diagonal members are BC and DA. They both have a horizontal distance of 0.40 m and a vertical distance of 0.30 m.
 
 Using the Pythagorean theorem:
 
@@ -48,19 +42,17 @@ Using the Pythagorean theorem:
 
 **L = 0.50 m**
 
-Therefore:
+So:
 
 **L_BC = L_DA = 0.50 m**
 
-The two inside diagonal members are CE and ED.
-
-Their horizontal distance is 0.20 m and their vertical distance is 0.30 m.
+The inside diagonal members are CE and ED. They have a horizontal distance of 0.20 m and a vertical distance of 0.30 m.
 
 **L = √[(0.20)² + (0.30)²]**
 
 **L = 0.3606 m**
 
-Therefore:
+So:
 
 **L_CE = L_ED = 0.3606 m**
 
@@ -82,7 +74,7 @@ The total member length is:
 
 ## 2a(ii) Free Body Diagram and Reactions
 
-The full truss free body diagram was drawn by hand.
+I drew the full truss free body diagram by hand.
 
 The support reactions are:
 
@@ -90,15 +82,15 @@ The support reactions are:
 - A_y
 - B_y
 
-First:
+Start with horizontal equilibrium:
 
 **ΣF_x = 0**
 
-There are no horizontal external forces, so:
+There are no outside horizontal forces, which gives:
 
 **A_x = 0**
 
-Now take moments about B:
+Next, take moments about B:
 
 **ΣM_B = 0**
 
@@ -108,7 +100,7 @@ Now take moments about B:
 
 **A_y = P / 3**
 
-Using:
+With:
 
 **P = 25 kN**
 
@@ -126,13 +118,13 @@ Now use vertical equilibrium:
 
 **B_y = -8.33 kN**
 
-The negative sign means the reaction at B acts downward.
+The negative answer means the reaction at B actually acts downward.
 
 ---
 
 ## 2a(iii) Symbolic Internal Forces
 
-The method of joints was used to solve the internal member forces.
+I used the method of joints to solve for the forces in each truss member.
 
 ### Joint B
 
@@ -148,7 +140,7 @@ Vertical equilibrium:
 
 **F_BC = -5P / 9**
 
-BC is in compression.
+The negative value means BC is in compression.
 
 Horizontal equilibrium:
 
@@ -182,21 +174,21 @@ For member CE:
 
 **sinθ = 0.30 / 0.3606**
 
-Vertical equilibrium gives:
+The vertical force equation gives:
 
 **F_CE = -(2√13 / 9)P**
 
 CE is in compression.
 
-Horizontal equilibrium gives:
+The horizontal force equation gives:
 
 **F_CD = 0**
 
-CD is a zero-force member.
+CD is a zero-force member for this loading setup.
 
 ### Joint D
 
-Vertical equilibrium gives:
+The vertical force equation gives:
 
 **F_ED = (2√13 / 9)P**
 
@@ -206,7 +198,7 @@ ED is in tension.
 
 ## 2a(iv) Numerical Internal Forces
 
-Using:
+With:
 
 **P = 25 kN**
 
@@ -242,7 +234,7 @@ For A500 Grade B steel:
 
 **S_y = 46 ksi**
 
-The unknown is the minimum cross-sectional area:
+The value I need to find is:
 
 **A_min = ?**
 
@@ -258,11 +250,11 @@ The allowable stress is:
 
 **σ_allow = S_y / N**
 
-Therefore:
+Set the member stress equal to the allowable stress:
 
 **F / A = S_y / N**
 
-Solving for area:
+Solve for area:
 
 **A_min = (N × F) / S_y**
 
@@ -270,7 +262,7 @@ Solving for area:
 
 ## 2b(iii) Numerical Area
 
-Using:
+The values used are:
 
 **F = 20.03 kN**
 
@@ -278,7 +270,7 @@ Using:
 
 **S_y = 317 MPa**
 
-The minimum area is:
+Plugging these into the area equation:
 
 **A_min = [(3.5)(20.03 × 10³)] / (317 × 10⁶)**
 
@@ -286,11 +278,11 @@ The minimum area is:
 
 **A_min = 221 mm²**
 
-This is approximately:
+Converted to square inches:
 
 **A_min = 0.343 in²**
 
-The final CAD model uses:
+The CAD model uses:
 
 **1 in × 1 in × 0.125 in square tube**
 
@@ -304,13 +296,13 @@ Since:
 
 **0.4375 > 0.343**
 
-the selected tubing meets the required area.
+the tubing is large enough for the required load and safety factor.
 
 ---
 
 ## 2b(iv) Estimated Truss Weight
 
-The selected cross-sectional area is:
+The member cross-sectional area is:
 
 **A = 0.4375 in²**
 
@@ -318,7 +310,7 @@ The total member length is:
 
 **L = 3.3212 m**
 
-Convert to inches:
+Convert the length to inches:
 
 **L = 130.76 in**
 
@@ -330,11 +322,11 @@ Volume:
 
 **V = 57.21 in³**
 
-Using steel density:
+Using a steel density of:
 
 **ρ = 0.284 lb/in³**
 
-Weight:
+The estimated weight is:
 
 **W = ρ × V**
 
@@ -372,7 +364,7 @@ Known values:
 
 **τ_y = 170 ksi**
 
-Unknowns:
+Values to find:
 
 **A_pin = ?**
 
@@ -386,9 +378,9 @@ The largest applied joint load is:
 
 **P = 25 kN**
 
-Therefore the C or D connection can be used as the critical pin.
+The C or D connection can be used as the critical pin because both see the 25 kN applied load.
 
-The shear force on the critical pin is:
+The shear force used for the pin calculation is:
 
 **V = 25 kN**
 
@@ -404,11 +396,11 @@ Allowable shear stress is:
 
 **τ_allow = τ_y / N**
 
-Set the actual shear stress equal to the allowable shear stress:
+Set the pin shear stress equal to the allowable shear stress:
 
 **V / A = τ_y / N**
 
-Solving for area:
+Solve for the required pin area:
 
 **A_pin = (N × V) / τ_y**
 
@@ -416,7 +408,7 @@ For a circular pin:
 
 **A = πd² / 4**
 
-Therefore:
+The minimum diameter equation is:
 
 **d_min = √[(4 × N × V) / (π × τ_y)]**
 
@@ -434,17 +426,17 @@ Minimum pin area:
 
 **A_pin = 0.1322 in²**
 
-Now solve for diameter:
+Now solve for the diameter:
 
 **d = √[(4 × 0.1322) / π]**
 
 **d_min = 0.410 in**
 
-A standard 7/16 in pin was selected.
+I selected the next larger standard pin size:
 
-**d = 0.4375 in**
+**d = 7/16 in = 0.4375 in**
 
-This is larger than the minimum required diameter.
+This is slightly larger than the calculated minimum diameter.
 
 ---
 
@@ -456,7 +448,7 @@ Each pin has:
 
 **L = 1.50 in**
 
-Volume of one pin:
+The volume of one pin is:
 
 **V = (πd² / 4)L**
 
@@ -464,7 +456,7 @@ Volume of one pin:
 
 **V = 0.2255 in³**
 
-Weight of one pin:
+The weight of one pin is:
 
 **W = 0.2255 × 0.278**
 
@@ -480,7 +472,7 @@ There are five pins:
 
 # 4. CAD Model
 
-The final CAD model was created using the dimensions and member sizes found from the calculations.
+The final CAD model was made using the dimensions and member sizes found from the calculations.
 
 The truss uses:
 
@@ -494,20 +486,20 @@ and:
 
 **1.50 in length**
 
-All seven truss members use the same cross section. All five pins use the same geometry.
+All seven truss members use the same cross section, and all five pins use the same geometry.
 
 The CAD model includes:
 
-- truss body
-- five pins
-- full truss with pins
-- dimensioned drawing
+- Truss body
+- Five pins
+- Finished truss with pins
+- Dimensioned drawing
 
 ---
 
 ## CAD and Hand Weight Comparison
 
-The hand-calculated truss weight was approximately:
+The hand-calculated truss weight was:
 
 **W_hand,truss = 16.25 lb**
 
@@ -515,13 +507,13 @@ The calculated pin weight was:
 
 **W_pins = 0.313 lb**
 
-Total hand-calculated weight:
+The total hand-calculated weight is:
 
 **W_hand,total = 16.25 + 0.313**
 
 **W_hand,total = 16.56 lb**
 
-The CAD model predicted approximately:
+The CAD model predicted:
 
 **W_CAD,total = 16.16 lb**
 
@@ -531,30 +523,31 @@ Percent difference:
 
 **Percent Difference ≈ 2.4%**
 
-The CAD weight is slightly lower because the CAD model removes material at the joints and pin holes. The hand calculation treats each member as if it keeps its full length and cross-sectional area.
+The CAD value came out slightly lower because the CAD model has material removed at the pin holes and joints. The hand calculation is a simpler estimate that treats the members as full-length pieces.
 
 ---
 
 # 5. Engineering Lessons Learned
 
-One thing I learned from this assignment was that the member size should be calculated before choosing the final tubing size. At first I considered using 2 in × 2 in × 0.25 in tubing, but the calculations showed that this was much larger than needed. Using a smaller member reduced the weight while still meeting the required safety factor.
+One thing I learned from this assignment was that it makes more sense to calculate the required member area before picking a tubing size. At first I considered using 2 in × 2 in × 0.25 in tubing, but after doing the calculations I found that it was much larger and heavier than necessary. The smaller tubing still meets the required safety factor while keeping the truss lighter.
 
-I also learned how important the support reactions are when solving a truss. The pin support at A and roller support at B behave differently, so the correct free body diagram had to be made before the internal forces could be found.
+I also learned how important the support reactions are when solving a truss. The pin at A and the roller at B do not have the same reactions, so the full free body diagram had to be solved before I could start finding the individual member forces.
 
-Another lesson was that CAD weight and hand-calculated weight will not always be exactly the same. The CAD model accounts for holes and joint geometry, while the hand calculation uses a simpler volume estimate. The final values were still very close.
+The CAD portion showed me why hand calculations and CAD mass properties are not always exactly the same. The hand calculation uses a simple volume estimate, while the CAD model accounts for the actual geometry, joint intersections, and pin holes. The two results were still very close.
 
-I also learned that fully defining the SolidWorks sketch is important. When the sketch was not fully constrained, changing one dimension caused the shape to move. Once all the main dimensions were added, the model became much easier to work with.
+I also learned that fully defining the SolidWorks sketch saves a lot of time. When my sketch was not fully constrained, changing one dimension caused the entire shape to move. Once I added the correct dimensions and fully defined the sketch, the rest of the model was much easier to finish.
 
 ---
 
 # CAD Files
 
-- Truss Body 
+- Truss Body
 - Pins
 - Finished Truss
 - Dimensions
 - FBD
-- (all linked in the PDF)
+
+All of the files are linked in the PDF.
 
 **Total project time:**  
-This project took me around 2 hours to finish. Solidworks being the Easiest as i use it every day at my job.
+This project took me around 2 hours to complete. The SolidWorks portion was the easiest part for me since I use SolidWorks regularly at work.
