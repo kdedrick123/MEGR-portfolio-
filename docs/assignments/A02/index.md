@@ -86,7 +86,7 @@ Start with horizontal equilibrium:
 
 **ΣF_x = 0**
 
-There are no outside horizontal forces, which gives:
+There are no outside horizontal forces, so:
 
 **A_x = 0**
 
@@ -374,6 +374,8 @@ Values to find:
 
 ## 3a(ii) Critical Pin
 
+<img src="pin.png" align="right" width="230">
+
 The largest applied joint load is:
 
 **P = 25 kN**
@@ -383,6 +385,10 @@ The C or D connection can be used as the critical pin because both see the 25 kN
 The shear force used for the pin calculation is:
 
 **V = 25 kN**
+
+The pin was modeled as a simple cylinder in SolidWorks using the diameter found from the shear calculations.
+
+<br clear="right">
 
 ---
 
@@ -472,11 +478,31 @@ There are five pins:
 
 # 4. CAD Model
 
+## Truss Without Pins
+
+<img src="truss%20without%20pins.png" align="right" width="360">
+
 The final CAD model was made using the dimensions and member sizes found from the calculations.
 
 The truss uses:
 
 **1 in × 1 in × 0.125 in square tube**
+
+All seven truss members use the same cross section.
+
+I first modeled the truss without the pins so I could make sure the main geometry and joint locations matched the hand calculations.
+
+The CAD model uses the same five joints and seven members that were used in the truss calculations.
+
+<br clear="right">
+
+---
+
+## Finished Truss With Pins
+
+<img src="truss%20with%20pins.png" align="right" width="360">
+
+After the truss body was finished, I added the pins to the five joint locations.
 
 The pins use:
 
@@ -486,14 +512,16 @@ and:
 
 **1.50 in length**
 
-All seven truss members use the same cross section, and all five pins use the same geometry.
+All five pins use the same geometry.
 
-The CAD model includes:
+The finished CAD model includes:
 
 - Truss body
 - Five pins
 - Finished truss with pins
 - Dimensioned drawing
+
+<br clear="right">
 
 ---
 
@@ -533,7 +561,7 @@ One thing I learned from this assignment was that it makes more sense to calcula
 
 I also learned how important the support reactions are when solving a truss. The pin at A and the roller at B do not have the same reactions, so the full free body diagram had to be solved before I could start finding the individual member forces.
 
-The CAD portion showed me why hand calculations and CAD mass properties are not always exactly the same. The hand calculation uses a simple volume estimate, while the CAD model accounts for the actual geometry, joint intersections, and pin holes. The two results were still very close.
+The CAD portion showed me why hand calculations and CAD mass properties are not always exactly the same. The hand calculation uses a simple volume estimate, while the CAD model accounts for the actual geometry, joints, and pin holes. The two results were still very close.
 
 I also learned that fully defining the SolidWorks sketch saves a lot of time. When my sketch was not fully constrained, changing one dimension caused the entire shape to move. Once I added the correct dimensions and fully defined the sketch, the rest of the model was much easier to finish.
 
@@ -541,13 +569,13 @@ I also learned that fully defining the SolidWorks sketch saves a lot of time. Wh
 
 # CAD Files
 
+The following files are linked in my final PDF:
+
 - Truss Body
 - Pins
 - Finished Truss
-- Dimensions
-- FBD
-
-All of the files are linked in the PDF.
+- Dimensioned Drawing
+- Free Body Diagram
 
 **Total project time:**  
 This project took me around 2 hours to complete. The SolidWorks portion was the easiest part for me since I use SolidWorks regularly at work.
