@@ -500,7 +500,7 @@ The safety factor with the pin hole was:
 
 This was a large decrease even though the applied load did not change.
 
-**Actual time spent: INSERT ACTUAL TIME HERE**
+**Actual time spent: 3 Hours**
 
 ---
 
