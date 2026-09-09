@@ -122,7 +122,7 @@ The circular cross-sectional area was controlled using:
 Because the dimensions are linked to variables, changing the load, material stiffness, diameter, or allowable deflection changes the calculated bar length.
 
 <p align="center">
-  <img src="./solidworks_aluminum_bar_equations_dialog.png" width="850">
+  <img src="./solidworks_aluminum_bar_equations_dialog(1).png" width="850">
 </p>
 
 <p align="center">
@@ -200,7 +200,7 @@ The left end of the bar was fixed and the right end was subjected to an axial te
 <p align="center"><strong>F = 400 lbf</strong></p>
 
 <p align="center">
-  <img src="./solidworks_axial_tension_simulation.png" width="850">
+  <img src="./solidworks_axial_tension_simulation(1).png" width="850">
 </p>
 
 <p align="center">
@@ -238,7 +238,7 @@ The FEA displacement result was:
 The displacement increased from approximately zero at the fixed end to its maximum value at the loaded end.
 
 <p align="center">
-  <img src="./solidworks_aluminum_bar_displacement_plot.png" width="850">
+  <img src="./solidworks_aluminum_bar_displacement_plot(1).png" width="850">
 </p>
 
 <p align="center">
@@ -320,7 +320,7 @@ The FEA von Mises stress was approximately:
 <p align="center"><strong>σ<sub>FEA</sub> = 3.62 ksi</strong></p>
 
 <p align="center">
-  <img src="./solidworks_von_mises_stress_analysis.png" width="850">
+  <img src="./solidworks_von_mises_stress_analysis(1).png" width="850">
 </p>
 
 <p align="center">
