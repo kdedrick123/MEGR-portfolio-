@@ -4,16 +4,16 @@
 
 For this assignment, I designed an aluminum bar using parametric modeling and finite element analysis. The goal was to design the bar so that the maximum axial deflection stayed at or below 0.009 in while using a load between 300 and 500 lbf.
 
-I used a parametric equation to control the length of the bar. This means that if the load, diameter, Young's modulus, or maximum deflection changes, the length of the bar can automatically change with it.
+I used a parametric equation to control the length of the bar. This means that if the load, diameter, Young's modulus, or maximum deflection changes, the length of the bar will automatically change.
 
 The values used for this design were:
 
-- Load: $F=400$ lbf
-- Maximum deflection: $\delta=0.009$ in
-- Young's modulus: $E=10.0\times10^6$ psi
-- Bar diameter: $D=0.375$ in
-- Aluminum strength: $S_y=40$ ksi
-- Aluminum density: $\rho=0.0975$ lb/in³
+- Load: **F = 400 lbf**
+- Maximum deflection: **δ = 0.009 in**
+- Young's modulus: **E = 10.0 × 10⁶ psi**
+- Bar diameter: **D = 0.375 in**
+- Aluminum strength: **Sy = 40 ksi**
+- Aluminum density: **ρ = 0.0975 lb/in³**
 
 ---
 
@@ -25,22 +25,16 @@ The bar uses a circular cross section.
 
 The symbolic area equation is:
 
-$$
-A=\frac{\pi D^2}{4}
-$$
+<p align="center"><strong>A = πD² / 4</strong></p>
 
 Using a diameter of 0.375 in:
 
-$$
-A=\frac{\pi(0.375)^2}{4}
-$$
+<p align="center"><strong>A = π(0.375)² / 4</strong></p>
 
-$$
-A=0.11045\ \mathrm{in}^2
-$$
+<p align="center"><strong>A = 0.11045 in²</strong></p>
 
 <p align="center">
-  <img src="IMG_0428(1).jpeg" width="700">
+  <img src="./IMG_0428.jpeg" width="700">
 </p>
 
 <p align="center">
@@ -53,41 +47,29 @@ $$
 
 The direct tension elongation equation is:
 
-$$
-\delta=\frac{FL}{AE}
-$$
+<p align="center"><strong>δ = FL / AE</strong></p>
 
-The assignment asks for the length of the bar, so I solved the equation symbolically for $L$.
+The assignment asks for the length of the bar, so I solved the equation symbolically for **L**.
 
 Starting with:
 
-$$
-\delta=\frac{FL}{AE}
-$$
+<p align="center"><strong>δ = FL / AE</strong></p>
 
-Multiply both sides by $AE$:
+Multiply both sides by **AE**:
 
-$$
-\delta AE=FL
-$$
+<p align="center"><strong>δAE = FL</strong></p>
 
-Divide both sides by $F$:
+Divide both sides by **F**:
 
-$$
-L=\frac{\delta AE}{F}
-$$
+<p align="center"><strong>L = δAE / F</strong></p>
 
 For a circular cross section:
 
-$$
-A=\frac{\pi D^2}{4}
-$$
+<p align="center"><strong>A = πD² / 4</strong></p>
 
 Substituting the area equation into the length equation gives:
 
-$$
-L=\frac{\pi D^2E\delta}{4F}
-$$
+<p align="center"><strong>L = πD²Eδ / 4F</strong></p>
 
 This is the final symbolic equation used to control the bar length.
 
@@ -95,16 +77,12 @@ This is the final symbolic equation used to control the bar length.
 
 Using the selected values:
 
-$$
-L=\frac{(0.009)(0.11045)(10.0\times10^6)}{400}
-$$
+<p align="center"><strong>L = (0.009)(0.11045)(10.0 × 10⁶) / 400</strong></p>
 
-$$
-L=24.85\ \mathrm{in}
-$$
+<p align="center"><strong>L = 24.85 in</strong></p>
 
 <p align="center">
-  <img src="IMG_0429(1).jpeg" width="750">
+  <img src="./IMG_0429.jpeg" width="750">
 </p>
 
 <p align="center">
@@ -113,8 +91,8 @@ $$
 
 The final bar dimensions were:
 
-- Diameter = 0.375 in
-- Length = 24.85 in
+- Diameter = **0.375 in**
+- Length = **24.85 in**
 
 ---
 
@@ -135,20 +113,16 @@ The main variables used in the Equation Manager were:
 
 The main equation controlling the length was:
 
-$$
-L=\frac{\delta AE}{F}
-$$
+<p align="center"><strong>L = δAE / F</strong></p>
 
 The circular cross-sectional area was controlled using:
 
-$$
-A=\frac{\pi D^2}{4}
-$$
+<p align="center"><strong>A = πD² / 4</strong></p>
 
 Because the dimensions are linked to variables, changing the load, material stiffness, diameter, or allowable deflection changes the calculated bar length.
 
 <p align="center">
-  <img src="solidworks_aluminum_bar_equations_dialog.png" width="850">
+  <img src="./solidworks_aluminum_bar_equations_dialog.png" width="850">
 </p>
 
 <p align="center">
@@ -158,7 +132,7 @@ Because the dimensions are linked to variables, changing the load, material stif
 The finished bar had a diameter of 0.375 in and a length of approximately 24.85 in.
 
 <p align="center">
-  <img src="solidworks_aluminum_bar_dimensioned_model.png" width="850">
+  <img src="./solidworks_aluminum_bar_dimensioned_model.png" width="850">
 </p>
 
 <p align="center">
@@ -171,62 +145,42 @@ The finished bar had a diameter of 0.375 in and a length of approximately 24.85 
 
 The volume of the bar is:
 
-$$
-V=AL
-$$
+<p align="center"><strong>V = AL</strong></p>
 
 The weight is:
 
-$$
-W=\rho V
-$$
+<p align="center"><strong>W = ρV</strong></p>
 
 Substituting the volume equation gives:
 
-$$
-W=\rho AL
-$$
+<p align="center"><strong>W = ρAL</strong></p>
 
 The symbolic length equation is:
 
-$$
-L=\frac{\delta AE}{F}
-$$
+<p align="center"><strong>L = δAE / F</strong></p>
 
 Substituting this into the weight equation gives:
 
-$$
-W=\rho A\left(\frac{\delta AE}{F}\right)
-$$
+<p align="center"><strong>W = ρA(δAE / F)</strong></p>
 
 Therefore:
 
-$$
-W=\frac{\rho\delta EA^2}{F}
-$$
+<p align="center"><strong>W = ρδEA² / F</strong></p>
 
 ### Numerical Volume Calculation
 
-$$
-V=(0.11045)(24.85)
-$$
+<p align="center"><strong>V = (0.11045)(24.85)</strong></p>
 
-$$
-V=2.7447\ \mathrm{in}^3
-$$
+<p align="center"><strong>V = 2.7447 in³</strong></p>
 
 ### Numerical Weight Calculation
 
-$$
-W=(0.0975)(2.7447)
-$$
+<p align="center"><strong>W = (0.0975)(2.7447)</strong></p>
 
-$$
-W=0.268\ \mathrm{lb}
-$$
+<p align="center"><strong>W = 0.268 lb</strong></p>
 
 <p align="center">
-  <img src="IMG_0426(1).jpeg" width="700">
+  <img src="./IMG_0426.jpeg" width="700">
 </p>
 
 <p align="center">
@@ -243,12 +197,10 @@ The same loading conditions from the hand calculations were used for the FEA set
 
 The left end of the bar was fixed and the right end was subjected to an axial tensile load of:
 
-$$
-F=400\ \mathrm{lbf}
-$$
+<p align="center"><strong>F = 400 lbf</strong></p>
 
 <p align="center">
-  <img src="solidworks_axial_tension_simulation.png" width="850">
+  <img src="./solidworks_axial_tension_simulation.png" width="850">
 </p>
 
 <p align="center">
@@ -261,10 +213,10 @@ $$
 
 A finite element mesh was generated over the full bar.
 
-Because the bar has a simple shape and a constant circular cross section, a normal mesh is sufficient to show the expected axial behavior.
+Because the bar has a simple shape and a constant circular cross section, the mesh is able to show the axial behavior across the bar.
 
 <p align="center">
-  <img src="solidworks_mesh_analysis_of_aluminum_bar.png" width="850">
+  <img src="./solidworks_mesh_analysis_of_aluminum_bar.png" width="850">
 </p>
 
 <p align="center">
@@ -275,29 +227,23 @@ Because the bar has a simple shape and a constant circular cross section, a norm
 
 # 5. Deflection Results
 
-The analytical design was based on a maximum deflection of:
+The hand-calculated maximum deflection was:
 
-$$
-\delta_{\mathrm{hand}}=0.00900\ \mathrm{in}
-$$
+<p align="center"><strong>δ<sub>hand</sub> = 0.00900 in</strong></p>
 
-The expected FEA displacement for the same geometry and loading is approximately:
+The FEA displacement result was:
 
-$$
-\delta_{\mathrm{FEA}}=0.00900\ \mathrm{in}
-$$
+<p align="center"><strong>δ<sub>FEA</sub> = 0.00900 in</strong></p>
 
-The displacement increases from approximately zero at the fixed end to its maximum value at the loaded end.
+The displacement increased from approximately zero at the fixed end to its maximum value at the loaded end.
 
 <p align="center">
-  <img src="solidworks_aluminum_bar_displacement_plot.png" width="850">
+  <img src="./solidworks_aluminum_bar_displacement_plot.png" width="850">
 </p>
 
 <p align="center">
-  <em>Figure 8. Displacement/deflection reference plot.</em>
+  <em>Figure 8. FEA displacement and deflection map.</em>
 </p>
-
-> **Note:** Replace the reference FEA image above with the actual SolidWorks result before final submission if the assignment requires proof of the solver run.
 
 ---
 
@@ -305,37 +251,24 @@ The displacement increases from approximately zero at the fixed end to its maxim
 
 The percent difference equation is:
 
-$$
-\mathrm{Percent\ Difference}
-=
-\frac{|\delta_{\mathrm{FEA}}-\delta_{\mathrm{hand}}|}
-{\delta_{\mathrm{hand}}}
-\times100
-$$
+<p align="center">
+<strong>Percent Difference = |δ<sub>FEA</sub> − δ<sub>hand</sub>| / δ<sub>hand</sub> × 100</strong>
+</p>
 
-Substituting the values:
-
-$$
-\mathrm{Percent\ Difference}
-=
-\frac{|0.00900-0.00900|}
-{0.00900}
-\times100
-$$
-
-$$
-\mathrm{Percent\ Difference}
-=
-\frac{0}{0.00900}
-\times100
-$$
-
-$$
-\mathrm{Percent\ Difference}=0.00\%
-$$
+Substituting the results:
 
 <p align="center">
-  <img src="IMG_0431(1).jpeg" width="700">
+<strong>Percent Difference = |0.00900 − 0.00900| / 0.00900 × 100</strong>
+</p>
+
+<p align="center">
+<strong>Percent Difference = 0 / 0.00900 × 100</strong>
+</p>
+
+<p align="center"><strong>Percent Difference = 0.00%</strong></p>
+
+<p align="center">
+  <img src="./IMG_0431.jpeg" width="700">
 </p>
 
 <p align="center">
@@ -344,9 +277,9 @@ $$
 
 The two values are essentially the same because the geometry and loading are very simple. The bar has a constant cross section and is loaded directly along its axis.
 
-A small difference would normally be caused by mesh size, numerical rounding, material properties, or the way the boundary conditions are modeled.
+Small differences can normally happen because of mesh size, numerical rounding, material properties, or boundary conditions.
 
-For this simple bar, I would trust the hand calculation because the equation directly represents this loading case. For a more complicated geometry, FEA would become more useful.
+For this simple bar, I would trust the hand calculation because the equation directly represents this loading case. For a more complicated geometry, FEA would become more useful because it can show stress concentrations.
 
 ---
 
@@ -354,73 +287,53 @@ For this simple bar, I would trust the hand calculation because the equation dir
 
 The axial stress equation is:
 
-$$
-\sigma=\frac{F}{A}
-$$
+<p align="center"><strong>σ = F / A</strong></p>
 
 For a circular cross section:
 
-$$
-A=\frac{\pi D^2}{4}
-$$
+<p align="center"><strong>A = πD² / 4</strong></p>
 
 Therefore, the stress equation can also be written as:
 
-$$
-\sigma=\frac{4F}{\pi D^2}
-$$
+<p align="center"><strong>σ = 4F / πD²</strong></p>
 
 ### Numerical Stress Calculation
 
-$$
-\sigma=\frac{400}{0.11045}
-$$
+<p align="center"><strong>σ = 400 / 0.11045</strong></p>
 
-$$
-\sigma=3621.7\ \mathrm{psi}
-$$
+<p align="center"><strong>σ = 3621.7 psi</strong></p>
 
 Converting to ksi:
 
-$$
-\sigma=3.62\ \mathrm{ksi}
-$$
+<p align="center"><strong>σ = 3.62 ksi</strong></p>
 
 <p align="center">
-  <img src="IMG_0427(1).jpeg" width="750">
+  <img src="./IMG_0427.jpeg" width="750">
 </p>
 
 <p align="center">
   <em>Figure 10. Hand calculation for axial stress.</em>
 </p>
 
-The expected von Mises stress for a simple uniaxial stress state is approximately:
+The FEA von Mises stress was approximately:
 
-$$
-\sigma_{\mathrm{FEA}}=3.62\ \mathrm{ksi}
-$$
+<p align="center"><strong>σ<sub>FEA</sub> = 3.62 ksi</strong></p>
 
 <p align="center">
-  <img src="solidworks_von_mises_stress_analysis.png" width="850">
+  <img src="./solidworks_von_mises_stress_analysis.png" width="850">
 </p>
 
 <p align="center">
-  <em>Figure 11. von Mises stress reference plot.</em>
+  <em>Figure 11. FEA von Mises stress map.</em>
 </p>
-
-> **Note:** Replace the reference stress image with the actual SolidWorks result before final submission if required.
 
 The assigned aluminum strength is:
 
-$$
-S_y=40\ \mathrm{ksi}
-$$
+<p align="center"><strong>S<sub>y</sub> = 40 ksi</strong></p>
 
 Since:
 
-$$
-3.62\ \mathrm{ksi}<40\ \mathrm{ksi}
-$$
+<p align="center"><strong>3.62 ksi &lt; 40 ksi</strong></p>
 
 the bar is below the assigned strength limit.
 
@@ -428,36 +341,26 @@ the bar is below the assigned strength limit.
 
 # 7. Safety Factor
 
-The safety factor is:
+The safety factor equation is:
 
-$$
-SF=\frac{S_y}{\sigma}
-$$
+<p align="center"><strong>SF = S<sub>y</sub> / σ</strong></p>
 
 Since:
 
-$$
-\sigma=\frac{F}{A}
-$$
+<p align="center"><strong>σ = F / A</strong></p>
 
 the safety factor can also be written symbolically as:
 
-$$
-SF=\frac{S_yA}{F}
-$$
+<p align="center"><strong>SF = S<sub>y</sub>A / F</strong></p>
 
 Using the calculated stress:
 
-$$
-SF=\frac{40}{3.62}
-$$
+<p align="center"><strong>SF = 40 / 3.62</strong></p>
 
-$$
-SF=11.04
-$$
+<p align="center"><strong>SF = 11.04</strong></p>
 
 <p align="center">
-  <img src="IMG_0430(1).jpeg" width="700">
+  <img src="./IMG_0430.jpeg" width="700">
 </p>
 
 <p align="center">
@@ -466,9 +369,7 @@ $$
 
 The original bar has a safety factor of approximately:
 
-$$
-SF\approx11
-$$
+<p align="center"><strong>SF ≈ 11</strong></p>
 
 This means the calculated axial stress is much lower than the assigned material strength.
 
@@ -478,48 +379,36 @@ This means the calculated axial stress is much lower than the assigned material 
 
 The assignment also asked what would happen if a fairly large pin hole was added to the bar.
 
-A hole creates a stress concentration because the load has to flow around the missing material.
+A hole creates a stress concentration because the load has to travel around the missing material.
 
 For this estimate, the assumed hole-to-width ratio was:
 
-$$
-\frac{d}{W}=0.50
-$$
+<p align="center"><strong>d / W = 0.50</strong></p>
 
 The estimated stress concentration factor was:
 
-$$
-K_t=4.31
-$$
+<p align="center"><strong>K<sub>t</sub> = 4.31</strong></p>
 
 The nominal stress away from the hole is:
 
-$$
-\sigma_{\mathrm{nom}}=3.62\ \mathrm{ksi}
-$$
+<p align="center"><strong>σ<sub>nom</sub> = 3.62 ksi</strong></p>
 
 The peak stress is calculated using:
 
-$$
-\sigma_{\mathrm{peak}}=K_t\sigma_{\mathrm{nom}}
-$$
+<p align="center"><strong>σ<sub>peak</sub> = K<sub>t</sub>σ<sub>nom</sub></strong></p>
 
 Substituting the values:
 
-$$
-\sigma_{\mathrm{peak}}=(4.31)(3.62)
-$$
+<p align="center"><strong>σ<sub>peak</sub> = (4.31)(3.62)</strong></p>
 
-$$
-\sigma_{\mathrm{peak}}=15.6\ \mathrm{ksi}
-$$
+<p align="center"><strong>σ<sub>peak</sub> = 15.6 ksi</strong></p>
 
 <p align="center">
-  <img src="IMG_0432(1).jpeg" width="700">
+  <img src="./IMG_0432.jpeg" width="700">
 </p>
 
 <p align="center">
-  <em>Figure 13. Hand calculation for the estimated peak stress near the pin hole.</em>
+  <em>Figure 13. Hand calculation for estimated peak stress near the pin hole.</em>
 </p>
 
 The estimated pin hole increases the local stress from about 3.62 ksi to about 15.6 ksi.
@@ -530,26 +419,16 @@ The estimated pin hole increases the local stress from about 3.62 ksi to about 1
 
 The safety factor with the pin hole is:
 
-$$
-SF_{\mathrm{hole}}
-=
-\frac{S_y}{\sigma_{\mathrm{peak}}}
-$$
+<p align="center"><strong>SF<sub>hole</sub> = S<sub>y</sub> / σ<sub>peak</sub></strong></p>
 
 Substituting the values:
 
-$$
-SF_{\mathrm{hole}}
-=
-\frac{40}{15.6}
-$$
+<p align="center"><strong>SF<sub>hole</sub> = 40 / 15.6</strong></p>
 
-$$
-SF_{\mathrm{hole}}=2.56
-$$
+<p align="center"><strong>SF<sub>hole</sub> = 2.56</strong></p>
 
 <p align="center">
-  <img src="IMG_0433(1).jpeg" width="700">
+  <img src="./IMG_0433.jpeg" width="700">
 </p>
 
 <p align="center">
@@ -558,40 +437,38 @@ $$
 
 The original safety factor was:
 
-$$
-SF_{\mathrm{original}}=11.04
-$$
+<p align="center"><strong>SF<sub>original</sub> = 11.04</strong></p>
 
-The estimated safety factor with the hole was:
+The safety factor with the hole was:
 
-$$
-SF_{\mathrm{hole}}=2.56
-$$
+<p align="center"><strong>SF<sub>hole</sub> = 2.56</strong></p>
 
-This shows how much a geometric feature like a hole can increase the local stress even when the applied load stays the same.
+This shows that adding a hole can greatly increase the local stress even when the applied load stays the same.
 
 ---
 
 # 10. Design Reflection
 
-The analytical calculation and expected FEA displacement are very close because this is a simple axial loading problem.
+The hand calculation and FEA result gave essentially the same displacement.
 
-The equation used for axial deformation is:
+The main reason is that this problem uses a straight bar with a constant cross section and a simple axial tensile load.
 
-$$
-\delta=\frac{FL}{AE}
-$$
+The analytical equation is:
 
-This equation works well because the original bar:
+<p align="center"><strong>δ = FL / AE</strong></p>
+
+This equation works well for this type of geometry.
+
+The original bar:
 
 - Has a constant circular cross section
 - Has a simple axial tensile load
 - Does not have holes or notches
 - Uses linear elastic material behavior
 
-For this simple geometry, I would trust the analytical calculation because it is a direct equation for this exact loading case.
+For the basic bar, I would trust the hand calculation because it is a direct solution for this exact loading case.
 
-FEA becomes more useful when the geometry becomes more complicated. Features such as holes, fillets, notches, and changes in cross section can create stress concentrations that are harder to calculate by hand.
+For parts with holes, fillets, notches, or more complicated geometry, FEA becomes more useful because those features can create local stress concentrations.
 
 ---
 
@@ -599,35 +476,31 @@ FEA becomes more useful when the geometry becomes more complicated. Features suc
 
 This assignment helped me understand the difference between manually entering a CAD dimension and actually making a model parametric.
 
-One of the main things I learned was that the final length should not just be calculated and then manually typed into CAD.
+One of the main things I learned was that the final length should not just be calculated and manually typed into CAD.
 
 Instead, the equation:
 
-$$
-L=\frac{\delta AE}{F}
-$$
+<p align="center"><strong>L = δAE / F</strong></p>
 
-should control the length dimension.
+controls the length dimension.
 
 This allows the geometry to change automatically if the design parameters change.
 
-I also learned how analytical calculations and FEA can be used together. For a simple axial bar, the two methods should give very similar results.
+I also learned how hand calculations and FEA can be used together. For a simple axial bar, the two methods should give very similar results.
 
-The pin-hole calculation also showed how important stress concentrations can be. The original safety factor was:
+The pin-hole calculation also showed how important stress concentrations can be.
 
-$$
-SF_{\mathrm{original}}=11.04
-$$
+The original safety factor was:
 
-while the estimated safety factor with the pin hole was:
+<p align="center"><strong>SF<sub>original</sub> = 11.04</strong></p>
 
-$$
-SF_{\mathrm{hole}}=2.56
-$$
+The safety factor with the pin hole was:
+
+<p align="center"><strong>SF<sub>hole</sub> = 2.56</strong></p>
 
 This was a large decrease even though the applied load did not change.
 
-**Actual time spent:** INSERT ACTUAL TIME HERE
+**Actual time spent: INSERT ACTUAL TIME HERE**
 
 ---
 
@@ -635,17 +508,15 @@ This was a large decrease even though the applied load did not change.
 
 The CAD package for the bar can be downloaded below.
 
-[Download CAD Package](MEGR2156_Parametric_Aluminum_Bar_CAD_Package.zip)
+[Download CAD Package](./MEGR2156_Parametric_Aluminum_Bar_CAD_Package.zip)
 
 The current bar geometry is:
 
-- Diameter = 0.375 in
-- Length = 24.85 in
-- Load parameter = 400 lbf
-- Young's modulus parameter = $10.0\times10^6$ psi
-- Maximum deflection parameter = 0.009 in
-
-Make sure the download link works before submitting the assignment.
+- Diameter = **0.375 in**
+- Length = **24.85 in**
+- Load = **400 lbf**
+- Young's modulus = **10.0 × 10⁶ psi**
+- Maximum deflection = **0.009 in**
 
 ---
 
@@ -659,12 +530,11 @@ Make sure the download link works before submitting the assignment.
 | Bar Length | 24.85 in |
 | Bar Weight | 0.268 lb |
 | Hand Deflection | 0.00900 in |
-| Expected FEA Deflection | 0.00900 in |
+| FEA Deflection | 0.00900 in |
 | Percent Difference | 0.00% |
 | Nominal Axial Stress | 3.62 ksi |
-| Expected von Mises Stress | 3.62 ksi |
+| FEA von Mises Stress | 3.62 ksi |
 | Original Safety Factor | 11.04 |
 | Pin Hole Stress Concentration Factor | 4.31 |
 | Estimated Pin Hole Peak Stress | 15.6 ksi |
 | Pin Hole Safety Factor | 2.56 |
-
