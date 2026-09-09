@@ -122,7 +122,7 @@ The circular cross-sectional area was controlled using:
 Because the dimensions are linked to variables, changing the load, material stiffness, diameter, or allowable deflection changes the calculated bar length.
 
 <p align="center">
-  <img src="./solidworks_aluminum_bar_equations_dialog(1).png" width="850">
+  <img src="./solidworks_aluminum_bar_equations_dialog (1).png" width="850">
 </p>
 
 <p align="center">
