@@ -73,7 +73,7 @@ Feature 1 is the horizontal plate/base that receives the motor face. It is treat
 
 ### b. Free-Body Diagram of Feature 1 (5%)
 
-![Feature 1 Free Body Diagram](images/fbd-feature1.jpeg)
+![Feature 1 Free Body Diagram](A04/fbd-feature1.jpeg)
 
 Horizontal cantilever of length L<sub>1</sub>.  
 Fixed end = junction with Feature 2.  
