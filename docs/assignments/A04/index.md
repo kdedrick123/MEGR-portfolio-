@@ -85,7 +85,10 @@ Reaction force + reaction moment at the fixed root.
 
 ### c. Model the Equations and Solve Symbolically (20%)
 
-![Feature 1 Math / Calculations](images/math-feature1.jpeg)
+![Feature 1 Math / Calculations]
+<p align="center">
+  <img src="./math-feature1.jpeg" width="700">
+</p>
 
 **Maximum moment at fixed end**  
 $$M_{\max} = P \cdot L_1$$
@@ -137,7 +140,10 @@ Feature 2 is the vertical plate that bolts to the rigid wall A. The wall is assu
 
 ### b. Free-Body Diagram of Feature 2 (5%)
 
-![Feature 2 Free Body Diagram](images/fbd-feature2.jpeg)
+![Feature 2 Free Body Diagram]
+<p align="center">
+  <img src="./fbd-feature2.jpeg" width="700">
+</p>
 
 Vertical member fixed at the wall via the bolt pattern.  
 Moment M = P·L<sub>1</sub> and shear P applied at the junction with Feature 1.  
@@ -145,7 +151,10 @@ Upper portion free to bend.
 
 ### c. Model the Equations and Solve Symbolically (20%)
 
-![Feature 2 Math / Calculations](images/math-feature2.jpeg)
+![Feature 2 Math / Calculations]
+<p align="center">
+  <img src="./math-feature2.jpeg" width="700">
+</p>
 
 **Moment at wall root**  
 $$M_2 \approx P \cdot L_1$$
@@ -170,7 +179,10 @@ Combined tip deflection of both features is verified in the final CAD model to s
 
 ## Isometric View of Final Motor Mount (CAD)
 
-![CAD Isometric View](images/cad-isometric.jpg/png)
+![CAD Isometric View]
+<p align="center">
+  <img src="./cad-isometric.jpg.png" width="700">
+</p>
 
 The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 contains a central clearance hole for the motor shaft plus a surrounding pattern of smaller mounting holes. The vertical Feature 2 contains four clearance holes for wall attachment bolts.
 
@@ -196,7 +208,10 @@ The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 c
 
 ## 2157 Students – Multiview Drawing (20%)
 
-![Multiview Drawing](images/multiview-drawing.jpg.png)
+![Multiview Drawing]
+<p align="center">
+  <img src="./multiview-drawing.jpg.png" width="700">
+</p>
 
 Third-angle projection multiview drawing containing:
 
