@@ -165,7 +165,9 @@ Combined tip deflection of both features is verified in the final CAD model to s
 
 The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 contains a central clearance hole for the motor shaft plus a surrounding pattern of smaller mounting holes. The vertical Feature 2 contains four clearance holes for wall attachment bolts.
 
-> *(Insert isometric CAD screenshot here)*
+> <p align="center">
+  <img src="./ISOVIEW.png" width="700">
+</p>
 
 ---
 
