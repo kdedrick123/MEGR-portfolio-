@@ -73,14 +73,16 @@ Feature 1 is the horizontal plate/base that receives the motor face. It is treat
 
 ### b. Free-Body Diagram of Feature 1 (5%)
 
+![Feature 1 Free Body Diagram](images/fbd-feature1.jpg)
+
 Horizontal cantilever of length L<sub>1</sub>.  
 Fixed end = junction with Feature 2.  
 Vertical force P = 300 N at the free end (transmitted through the motor shaft).  
 Reaction force + reaction moment at the fixed root.
 
-> *(Insert photograph of handwritten Feature 1 FBD here)*
-
 ### c. Model the Equations and Solve Symbolically (20%)
+
+![Feature 1 Math / Calculations](images/math-feature1.jpg)
 
 **Maximum moment at fixed end**  
 $$M_{\max} = P \cdot L_1$$
@@ -132,13 +134,15 @@ Feature 2 is the vertical plate that bolts to the rigid wall A. The wall is assu
 
 ### b. Free-Body Diagram of Feature 2 (5%)
 
+![Feature 2 Free Body Diagram](images/fbd-feature2.jpg)
+
 Vertical member fixed at the wall via the bolt pattern.  
 Moment M = P·L<sub>1</sub> and shear P applied at the junction with Feature 1.  
 Upper portion free to bend.
 
-> *(Insert photograph of handwritten Feature 2 FBD here)*
-
 ### c. Model the Equations and Solve Symbolically (20%)
+
+![Feature 2 Math / Calculations](images/math-feature2.jpg)
 
 **Moment at wall root**  
 $$M_2 \approx P \cdot L_1$$
@@ -163,11 +167,9 @@ Combined tip deflection of both features is verified in the final CAD model to s
 
 ## Isometric View of Final Motor Mount (CAD)
 
-The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 contains a central clearance hole for the motor shaft plus a surrounding pattern of smaller mounting holes. The vertical Feature 2 contains four clearance holes for wall attachment bolts.
+![CAD Isometric View](images/cad-isometric.jpg)
 
-> <p align="center">
-  <img src="./ISOVIEW.png" width="700">
-</p>
+The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 contains a central clearance hole for the motor shaft plus a surrounding pattern of smaller mounting holes. The vertical Feature 2 contains four clearance holes for wall attachment bolts.
 
 ---
 
@@ -191,16 +193,14 @@ The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 c
 
 ## 2157 Students – Multiview Drawing (20%)
 
+![Multiview Drawing](images/multiview-drawing.jpg)
+
 Third-angle projection multiview drawing containing:
 
 - Front View, Right Side View, Top View, and Isometric View
 - ASME-compliant view alignment and line types (visible, hidden, centerlines)
 - Size & location dimensions + proper hole callouts
 - Title block: MEGR 2157, part name “Motor Mount”, scale, material, etc.
-
-> <p align="center">
-  <img src="./DRWVIEW.png" width="700">
-</p>
 
 ---
 
@@ -236,16 +236,6 @@ Third-angle projection multiview drawing containing:
 
 ---
 
-## Submission Checklist
-
-- This document contains all required headers (Feature 1, Feature 2, Sketch / CAD, Drawing, etc.)
-- Link to downloadable CAD file (SolidWorks / STEP) provided in the portfolio / Canvas submission
-- Multiview drawing exported as PDF and embedded in portfolio
-- All written work and images embedded
-- Document is legible and structured for easy grading
-
----
-
 ## Appendix A – Motor Dimensions
 
 - Motor body: Ø27.7 × 38 mm  
@@ -259,6 +249,4 @@ Classic L-bracket:
 - **Feature 1** = horizontal motor plate (shaft + mounting hole pattern)
 - **Feature 2** = vertical wall flange (four bolt holes)
 
----
-
-*End of Documentation*
+-
