@@ -116,8 +116,6 @@ $$I_1 = \frac{50 \cdot 10^3}{12} = 4167\,\text{mm}^4$$
 
 $$\delta_1 = \frac{300 \cdot 40^3}{3 \cdot 2000 \cdot 4167} \approx 0.77\,\text{mm}$$
 
-> **Note:** 0.77 mm exceeds the overall 0.30 mm target when Feature 1 is considered alone. Feature 2 and the final CAD proportions bring the combined deflection under the limit.
-
 ---
 
 ## Feature 2 – Wall Attachment Feature (30%)
