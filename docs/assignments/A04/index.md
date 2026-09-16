@@ -198,7 +198,9 @@ Third-angle projection multiview drawing containing:
 - Size & location dimensions + proper hole callouts
 - Title block: MEGR 2157, part name “Motor Mount”, scale, material, etc.
 
-> *(Insert multiview drawing image or PDF screenshot here)*
+> <p align="center">
+  <img src="./DRWVIEW.png" width="700">
+</p>
 
 ---
 
