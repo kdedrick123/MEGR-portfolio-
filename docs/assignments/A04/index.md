@@ -73,7 +73,6 @@ Feature 1 is the horizontal plate/base that receives the motor face. It is treat
 
 ### b. Free-Body Diagram of Feature 1 (5%)
 
-![Feature 1 Free Body Diagram]
 <p align="center">
   <img src="./fbd-feature1.jpeg" width="700">
 </p>
@@ -85,7 +84,6 @@ Reaction force + reaction moment at the fixed root.
 
 ### c. Model the Equations and Solve Symbolically (20%)
 
-![Feature 1 Math / Calculations]
 <p align="center">
   <img src="./math-feature1.jpeg" width="700">
 </p>
@@ -140,7 +138,6 @@ Feature 2 is the vertical plate that bolts to the rigid wall A. The wall is assu
 
 ### b. Free-Body Diagram of Feature 2 (5%)
 
-![Feature 2 Free Body Diagram]
 <p align="center">
   <img src="./fbd-feature2.jpeg" width="700">
 </p>
@@ -151,7 +148,6 @@ Upper portion free to bend.
 
 ### c. Model the Equations and Solve Symbolically (20%)
 
-![Feature 2 Math / Calculations]
 <p align="center">
   <img src="./math-feature2.jpeg" width="700">
 </p>
@@ -179,7 +175,6 @@ Combined tip deflection of both features is verified in the final CAD model to s
 
 ## Isometric View of Final Motor Mount (CAD)
 
-![CAD Isometric View]
 <p align="center">
   <img src="./cad-isometric.jpg.png" width="700">
 </p>
@@ -208,7 +203,6 @@ The finished SolidWorks model is an L-shaped bracket. The horizontal Feature 1 c
 
 ## 2157 Students – Multiview Drawing (20%)
 
-![Multiview Drawing]
 <p align="center">
   <img src="./multiview-drawing.jpg.png" width="700">
 </p>
