@@ -259,5 +259,5 @@ Classic L-bracket:
 - **Feature 1** = horizontal motor plate (shaft + mounting hole pattern)
 - **Feature 2** = vertical wall flange (four bolt holes)
 
-- [Download SolidWorks Part (MotorMount)](./files/MotorMount.sldprt)
-- [Download Drawing (draw2.drw)](./files/draw2.drw)
+- [Download SolidWorks Part (MotorMount)](./files/MotorMount.SLDPRT)
+- [Download Drawing (draw2.drw)](./files/draw2.SLDDRW)
