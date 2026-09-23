@@ -945,5 +945,5 @@ This project showed me that stress and deflection both need to be checked. A fea
 
 ## CAD Downloads
 
-- [Download Main Bracket STEP File](Kaleb_Dedrick_MEGR2157_Bracket.step)
-- [Download Linkage STEP File](Kaleb_Dedrick_MEGR2157_Linkage.step)
+- [Download Main Bracket File](Kaleb_Dedrick_MEGR2157_Bracket)
+- [Download Linkage File](Kaleb_Dedrick_MEGR2157_Linkage)
