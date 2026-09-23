@@ -929,6 +929,10 @@ The $c=1.499$ in dimension affects the clear opening and the load-path dimension
 
 The calculations assume the load is static. If the bracket had repeated loading, vibration, shock loading, or impact loading, I would need to do a fatigue analysis and possibly make the part larger. I would also add larger fillets to reduce stress concentration at the inside corners.
 
+## Design Revision
+
+At first, I modeled the bracket with the upper and lower features in the wrong orientation. The first version looked more like a flat base with separate upright walls, so it did not match the C-shaped design in Appendix B. I went back to the concept drawing, rebuilt the rear web, and made both jaws extend from the same side of the bracket. I also moved the cylindrical strap pin below the rear web. The updated model matched the intended load path better and made the CAD model match the calculations.
+
 ## What I Learned
 
 This project showed me that stress and deflection both need to be checked. A feature can be strong enough but still bend too much. In this design, stress controlled the final dimensions, but the stiffness calculations still proved the deflection stayed below 0.005 in. I also learned that the fit type affects how the part has to be manufactured.
