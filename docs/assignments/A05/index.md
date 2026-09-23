@@ -1,10 +1,15 @@
 # MEGR 2157 Design for Strength and Stiffness I
 
 **Student:** Kaleb Dedrick
+
 **Course:** MEGR 2157
+
 **Design Load:** 800 lbf
+
 **Material:** 6061-T6 Aluminum
+
 **Safety Factor:** 4
+
 **Work Time:** 7 Hours
 
 ## Introduction
@@ -14,6 +19,7 @@ For this assignment, I designed a bracket that can hold an 800 lbf strap load. I
 The bracket was broken into five features. Each feature was checked for stress and stiffness. After that, I used the larger dimension from the two calculations as the final CAD dimension.
 
 All FBD's were created in Paint.Net
+
 All work was written using GitHub coding to learn more about it
 
 ## Known Values
