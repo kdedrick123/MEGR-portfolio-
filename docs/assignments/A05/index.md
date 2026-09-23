@@ -777,17 +777,14 @@ The hole should be drilled slightly undersize and then reamed. The mating pin sh
 | ------------------------- | ------------------------- |
 | Nominal size              | 0.500 in                  |
 | Selected fit              | H7/g6 running/sliding fit |
-| Hole lower limit          | __________ in             |
-| Hole upper limit          | __________ in             |
-| Shaft lower limit         | __________ in             |
-| Shaft upper limit         | __________ in             |
-| Minimum clearance         | __________ in             |
-| Maximum clearance         | __________ in             |
-| Machinery’s Handbook page | __________                |
+| Hole lower limit          | 0.500000 in             |
+| Hole upper limit          | 0.500709 in             |
+| Shaft lower limit         | 0.499331 in             |
+| Shaft upper limit         | 0.499764 in             |
+| Minimum clearance         | 0.000236 in             |
+| Maximum clearance         | 0.001378 in             |
+| Machinery’s Handbook page | pp. 646-660, ANSI/ASME Limits and Fits section                |
 
-**Add your Machinery’s Handbook table photo below this section.**
-
-`[Insert H7/g6 fit-table photo here]`
 
 ## Fit for the 1.000 in Shaft
 
@@ -807,9 +804,6 @@ The hole should be drilled undersize and reamed. The shaft should be turned or g
 | Maximum interference      | 0.000039 in         |
 | Machinery’s Handbook page | pp. 646-660, ANSI/ASME Limits and Fits section            |
 
-**Add your Machinery’s Handbook table photo below this section.**
-
-`[Insert H7/p6 fit-table photo here]`
 
 # Lessons Learned
 
@@ -841,18 +835,3 @@ This project showed me that stress and deflection both need to be checked. A fea
 2. Oberg, Erik, et al. *Machinery’s Handbook*. ANSI/ASME Standard Limits and Fits, pages 646-660.
 3. 6061-T6 aluminum material properties used in the course design calculations.
 
-# Final Checklist
-
-* [x] Material selected
-* [x] Safety factor used
-* [x] Five stress analyses completed
-* [x] Five stiffness analyses completed
-* [x] FBDs included
-* [x] Final CAD dimensions listed
-* [x] Linkage stress calculation completed
-* [x] Linkage stiffness calculation completed
-* [x] Fit sections included
-* [ ] Add exact fit-table values from Machinery’s Handbook
-* [ ] Add actual work time
-* [ ] Add photos of handwritten calculations and CAD screenshots
-* [ ] Save the STEP files as native SolidWorks files if required
