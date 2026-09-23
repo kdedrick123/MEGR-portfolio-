@@ -14,6 +14,7 @@ For this assignment, I designed a bracket that can hold an 800 lbf strap load. I
 The bracket was broken into five features. Each feature was checked for stress and stiffness. After that, I used the larger dimension from the two calculations as the final CAD dimension.
 
 All FBD's were created in Paint.Net
+All work was written using GitHub coding to learn more about it
 
 ## Known Values
 
@@ -795,6 +796,8 @@ The final CAD model uses:
 
 
 # Linkage Design
+
+![Linkage CAD Model](linkage.png)
 
 The linkage is made from 6061-T6 aluminum. It has two holes, one for Feature A and one for the 1.000 in shaft.
 
