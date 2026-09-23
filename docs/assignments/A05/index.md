@@ -943,4 +943,7 @@ This project showed me that stress and deflection both need to be checked. A fea
 2. Oberg, Erik, et al. *Machinery’s Handbook*. ANSI/ASME Standard Limits and Fits, pages 646-660.
 3. 6061-T6 aluminum material properties used in the course design calculations.
 
-**CAD DOWNLOAD**
+## CAD Downloads
+
+- [Download Main Bracket STEP File](Kaleb_Dedrick_MEGR2157_Bracket.step)
+- [Download Linkage STEP File](Kaleb_Dedrick_MEGR2157_Linkage.step)
