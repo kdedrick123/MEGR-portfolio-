@@ -13,6 +13,8 @@ For this assignment, I designed a bracket that can hold an 800 lbf strap load. I
 
 The bracket was broken into five features. Each feature was checked for stress and stiffness. After that, I used the larger dimension from the two calculations as the final CAD dimension.
 
+All FBD's were created in Paint.Net
+
 ## Known Values
 
 | Item                       |                        Value |
