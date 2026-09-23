@@ -5,7 +5,7 @@
 **Design Load:** 800 lbf
 **Material:** 6061-T6 Aluminum
 **Safety Factor:** 4
-**Actual Work Time:** __________
+**Work Time:** 7 Hours
 
 ## Introduction
 
@@ -793,7 +793,6 @@ The final CAD model uses:
 | Lower jaw thickness     |    0.500 in |
 | Upper jaw thickness     |    0.750 in |
 
-The bracket and linkage were created as STEP files. These can be opened in SolidWorks or AutoCAD. In SolidWorks, I would open the STEP file as a solid body and save it as an `.SLDPRT` file.
 
 # Linkage Design
 
@@ -930,3 +929,5 @@ This project showed me that stress and deflection both need to be checked. A fea
 1. MEGR 2156/2157 Design for Strength and Stiffness I assignment, Appendix A through E.
 2. Oberg, Erik, et al. *Machinery’s Handbook*. ANSI/ASME Standard Limits and Fits, pages 646-660.
 3. 6061-T6 aluminum material properties used in the course design calculations.
+
+**CAD DOWNLOAD**
