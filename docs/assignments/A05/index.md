@@ -799,13 +799,13 @@ The hole should be drilled undersize and reamed. The shaft should be turned or g
 | ------------------------- | --------------------- |
 | Nominal size              | 1.000 in              |
 | Selected fit              | H7/p6 light press fit |
-| Hole lower limit          | __________ in         |
-| Hole upper limit          | __________ in         |
-| Shaft lower limit         | __________ in         |
-| Shaft upper limit         | __________ in         |
-| Minimum interference      | __________ in         |
-| Maximum interference      | __________ in         |
-| Machinery’s Handbook page | __________            |
+| Hole lower limit          | 1.000000 in         |
+| Hole upper limit          | 1.000827 in         |
+| Shaft lower limit         | 1.000866 in         |
+| Shaft upper limit         | 1.001378 in         |
+| Minimum interference      | 0.000039 in         |
+| Maximum interference      | 0.000039 in         |
+| Machinery’s Handbook page | pp. 646-660, ANSI/ASME Limits and Fits section            |
 
 **Add your Machinery’s Handbook table photo below this section.**
 
