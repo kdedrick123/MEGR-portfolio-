@@ -74,7 +74,7 @@ $$
 
 **Free Body Diagram**
 
-![Feature A FBD](images/fbd_feature_a.png)
+![Feature A FBD](fbd_feature_a.png)
 
 Feature A was treated as a cantilever beam with the load at the end.
 
@@ -152,7 +152,7 @@ $$
 
 **Free Body Diagram**
 
-![Feature B FBD](images/fbd_feature_b.png)
+![Feature B FBD](fbd_feature_b.png)
 
 Feature B was treated as an axial compression member.
 
@@ -235,7 +235,7 @@ $$
 
 **Free Body Diagram**
 
-![Feature C FBD](images/fbd_feature_c.png)
+![Feature C FBD](fbd_feature_c.png)
 
 Feature C was treated as a simply supported beam with a center load.
 
@@ -317,7 +317,7 @@ $$
 
 **Free Body Diagram**
 
-![Feature D and E FBDs](images/fbd_feature_de.png)
+![Feature D and E FBDs](fbd_feature_de.png)
 
 Feature D was treated as an axial member.
 
@@ -392,7 +392,7 @@ $$
 
 **Free Body Diagram**
 
-![Feature D and E FBDs](images/fbd_feature_de.png)
+![Feature D and E FBDs](fbd_feature_de.png)
 
 Feature E was treated as a cantilever beam.
 
@@ -472,7 +472,7 @@ $$
 
 **Free Body Diagram:**
 
-![Feature A FBD](images/fbd_feature_a.png)
+![Feature A FBD](fbd_feature_a.png)
 
 Feature A was treated as a cantilever beam.
 
@@ -536,7 +536,7 @@ $$
 
 **Free Body Diagram:**
 
-![Feature B FBD](images/fbd_feature_b.png)
+![Feature B FBD](fbd_feature_b.png)
 
 Feature B was treated as an axial member.
 
@@ -588,7 +588,7 @@ $$
 
 **Free Body Diagram:**
 
-![Feature C FBD](images/fbd_feature_c.png)
+![Feature C FBD](fbd_feature_c.png)
 
 Feature C was treated as a simply supported beam with a center load.
 
@@ -652,7 +652,7 @@ $$
 
 **Free Body Diagram:**
 
-![Feature D and E FBDs](images/fbd_feature_de.png)
+![Feature D and E FBDs](fbd_feature_de.png)
 
 Feature D was treated as an axial member.
 
@@ -702,7 +702,7 @@ $$
 
 **Free Body Diagram:**
 
-![Feature D and E FBDs](images/fbd_feature_de.png)
+![Feature D and E FBDs](fbd_feature_de.png)
 
 Feature E was treated as a cantilever beam.
 
@@ -768,7 +768,17 @@ $$
 
 # CAD Model and Drawing
 
-![Bracket Drawing](drawings/bracket_dimensioned_drawing.png)
+## Final CAD Model
+
+This is the finished C-shaped bracket model. The upper and lower jaws connect to the rear web, and the strap pin is supported below the rear web.
+
+![Final C-shaped bracket model](Screenshot%202026-09-23%20180657.png)
+
+## Dimensioned Multiview Drawing
+
+This drawing shows the orthographic views and dimensions used to create the bracket.
+
+![Dimensioned bracket drawing](Screenshot%202026-09-23%20180620.png)
 
 The final CAD model uses:
 
