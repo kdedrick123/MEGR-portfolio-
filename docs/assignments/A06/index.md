@@ -1,3 +1,38 @@
+# MEGR 2157 - Parametric Bracket and Link Design
+
+**Student:** Kaleb Dedrick  
+**Material:** 6061-T6 Aluminum  
+**Design Load:** 800 lbf  
+**Safety Factor:** 4  
+**Allowable Stress:** 10,000 psi  
+**Maximum Allowable Deflection:** 0.005 in  
+
+## Objective
+
+The purpose of this assignment was to convert my previous bracket design into a parametric CAD model and create detailed engineering drawings for the bracket and link. The bracket must support the 800 lbf design load while maintaining the required sliding-fit clearance over the rigid T-beam. The model and drawings were created to communicate the part geometry, material, tolerances, fits, and manufacturing requirements.
+
+[Insert Picture 1: Completed bracket CAD model.]
+
+## Parametric Bracket Design
+
+The bracket was modeled using named parameters instead of entering unrelated dimensions manually. This allows the model to update if the load, material, mating feature, or part dimensions change later.
+
+The main bracket dimensions are listed below.
+
+- Rear web thickness: 0.498 in
+- Body depth: 0.9992 in
+- Clear jaw gap: 1.499 in
+- Lower jaw thickness: 0.500 in
+- Upper jaw thickness: 0.750 in
+- Jaw length: 2.000 in
+- Pin boss diameter: 1.125 in
+
+The clear jaw gap is a functional dimension because it controls how the bracket slides over the rigid T-beam. The rear web thickness is a strength-driven dimension because it resists the applied load.
+
+[Insert Picture 2: CAD equation table or global variables.]
+
+[Insert Picture 3: Bracket sketch with key dimensions shown.]
+
 ## Strength-Driven CAD Equation
 
 The rear web thickness was controlled by the bending-stress equation below.
@@ -29,6 +64,10 @@ t = √(0.2480)
 t = 0.498 in
 
 Therefore, the rear web thickness was set to **0.498 in**.
+
+This equation was entered directly into the CAD equation manager as the `WEB_THICKNESS` parameter. The web thickness was not manually typed as a disconnected value. If the design load, allowable stress, or body depth changes, the CAD model will recalculate the rear web thickness and rebuild the connected geometry automatically.
+
+## Stress and Deflection Check
 
 ### Stress Check
 
@@ -63,12 +102,83 @@ Since:
 
 the bracket meets the deflection requirement.
 
-## Linkage Equation
+[Insert Picture 4: Hand calculation, CAD equation, or simulation result.]
 
-The linkage overall length was controlled by the hole-center spacing and the outside width.
+## Engineering Drawing and Tolerances
+
+The bracket drawing is arranged in third-angle projection with front, top, right, and isometric views. The drawing title block identifies the part as 6061-T6 aluminum with a mill finish.
+
+The general tolerance block used on the drawing is:
+
+- X.X: +/- 0.02 in
+- X.XX: +/- 0.01 in
+- X.XXX: +/- 0.005 in
+
+The 1.499 in jaw gap is a functional mating surface because it slides over the rigid T-beam. This dimension should use a tighter tolerance of:
+
+1.499 in +0.005 / -0.000
+
+This tolerance protects the assembly clearance and prevents the gap from becoming too small after manufacturing.
+
+The rear web thickness should also use the tighter tolerance class because it is controlled by the strength equation. A non-critical outside edge can use the looser X.X +/- 0.02 tolerance because it does not locate a mating component or affect the sliding fit.
+
+Using the tightest tolerance on every dimension would increase machining time, inspection requirements, and manufacturing cost without improving the function of non-critical features.
+
+[Insert Picture 5: Completed bracket drawing in third-angle projection.]
+
+## Link Design - MEGR 2157 Requirement
+
+The link was modeled parametrically from the bracket interface dimensions. The link is 1.500 in wide, 0.375 in thick, and has a 2.000 in hole-center distance.
+
+The link overall length was controlled by the equation below.
 
 L_link = Hole Center Distance + Outside Width
 
 L_link = 2.000 in + 1.500 in
 
 L_link = 3.500 in
+
+The smaller 0.500 in hole is a sliding interface using an H7/g6 fit. The 1.000 in hole is a controlled H7/p6 interface.
+
+The drawing datums are:
+
+- Datum A: Broad flat face of the link
+- Datum B: Axis of the 1.000 in hole
+- Datum C: Axis of the 0.500 in hole
+
+The drawing should include these position callouts:
+
+- Position of 1.000 in hole: DIA 0.005 | A | B | C
+- Position of 0.500 in hole: DIA 0.010 | A | B
+
+[Insert Picture 6: Link CAD model.]
+
+[Insert Picture 7: Link equation table or global variables.]
+
+[Insert Picture 8: Completed link drawing in third-angle projection.]
+
+## Process Documentation
+
+I began by reviewing the geometry and dimensions from the previous bracket assignment. The bracket geometry was separated into strength-driven dimensions and fit-controlled dimensions. The rear web thickness was identified as the primary strength-driven feature because it resists the bending load. The jaw gap was identified as the primary fit-controlled feature because it must slide over the T-beam.
+
+I used the bending-stress equation to control the rear web thickness directly in CAD. This connected the engineering calculation to the model so that a change to the load, material, or body depth would update the model without manually editing the sketch.
+
+While creating the drawings, I checked that the views were arranged in third-angle projection and that the important dimensions were visible without duplicate dimensions. I also verified that the material, finish, tolerance block, title block, drawing number, revision, and third-angle projection symbol were included.
+
+**Correction or mistake I encountered:**  
+[Add one real issue you corrected while creating your CAD model or drawing.]
+
+**Actual time spent:**  
+[Enter your actual time spent here.]
+
+## Lessons Learned
+
+This assignment showed that a parametric model is more useful than a model with disconnected dimensions. The rear web thickness was controlled by a stress equation, so the model can respond to changes in loading or material properties. This reduces manual rework and keeps the engineering analysis connected to the physical design.
+
+I also learned that tolerances communicate design intent. The 1.499 in gap needs tighter control because it is a sliding-fit interface with the rigid T-beam. A non-critical external edge does not need the same accuracy. Selecting tolerances based on the function of each feature improves manufacturability while protecting the dimensions that control fit, strength, and assembly.
+
+## CAD Download Links
+
+- **Bracket CAD file:** [Insert bracket CAD download link]
+- **Link CAD file:** [Insert link CAD download link]
+- **Parametric equation file:** [Insert CAD equation table or master-model link]
