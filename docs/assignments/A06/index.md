@@ -9,9 +9,9 @@
 
 ## Objective
 
-The purpose of this assignment was to convert my previous bracket design into a parametric CAD model and create detailed engineering drawings for the bracket and link. The bracket must support the 800 lbf design load while maintaining the required sliding-fit clearance over the rigid T-beam. The model and drawings were created to communicate the part geometry, material, tolerances, fits, and manufacturing requirements.
+The purpose of this assignment was to convert my previous bracket design into a parametric CAD model and create detailed engineering drawings for the bracket and link. The bracket must support the 800 lbf design load while maintaining the required sliding-fit clearance over the rigid T-beam. The model and drawings communicate the part geometry, material, tolerances, fits, and manufacturing requirements.
 
-[Insert Picture 1: Completed bracket CAD model.]
+![Completed bracket CAD model](bracketimg.png)
 
 ## Parametric Bracket Design
 
@@ -29,19 +29,17 @@ The main bracket dimensions are listed below.
 
 The clear jaw gap is a functional dimension because it controls how the bracket slides over the rigid T-beam. The rear web thickness is a strength-driven dimension because it resists the applied load.
 
-[Insert Picture 2: CAD equation table or global variables.]
-
-[Insert Picture 3: Bracket sketch with key dimensions shown.]
+![CAD Equation Manager and Global Variables](value.png)
 
 ## Strength-Driven CAD Equation
 
-The rear web thickness was controlled by the bending-stress equation below.
+The rear web thickness was controlled using the bending-stress equation below.
 
 **Bending stress equation:**
 
 σ = (6 × F × e) / (b × t²)
 
-Solving the equation for the required web thickness gives:
+Solving the equation for the required rear web thickness gives:
 
 t = √[(6 × F × e) / (σ_allow × b)]
 
@@ -65,7 +63,7 @@ t = 0.498 in
 
 Therefore, the rear web thickness was set to **0.498 in**.
 
-This equation was entered directly into the CAD equation manager as the `WEB_THICKNESS` parameter. The web thickness was not manually typed as a disconnected value. If the design load, allowable stress, or body depth changes, the CAD model will recalculate the rear web thickness and rebuild the connected geometry automatically.
+The Equation Manager contains the design variables and web-thickness calculation used to document the design basis. The variables can be updated if the design load, allowable stress, or body depth changes.
 
 ## Stress and Deflection Check
 
@@ -102,7 +100,7 @@ Since:
 
 the bracket meets the deflection requirement.
 
-[Insert Picture 4: Hand calculation, CAD equation, or simulation result.]
+![Stress and deflection calculation](<strress calc.png>)
 
 ## Engineering Drawing and Tolerances
 
@@ -114,7 +112,7 @@ The general tolerance block used on the drawing is:
 - X.XX: +/- 0.01 in
 - X.XXX: +/- 0.005 in
 
-The 1.499 in jaw gap is a functional mating surface because it slides over the rigid T-beam. This dimension should use a tighter tolerance of:
+The 1.499 in jaw gap is a functional mating surface because it slides over the rigid T-beam. This dimension uses a tighter tolerance of:
 
 1.499 in +0.005 / -0.000
 
@@ -124,7 +122,7 @@ The rear web thickness should also use the tighter tolerance class because it is
 
 Using the tightest tolerance on every dimension would increase machining time, inspection requirements, and manufacturing cost without improving the function of non-critical features.
 
-[Insert Picture 5: Completed bracket drawing in third-angle projection.]
+![Completed bracket drawing in third-angle projection](<bracket drw.png>)
 
 ## Link Design - MEGR 2157 Requirement
 
@@ -146,22 +144,16 @@ The drawing datums are:
 - Datum B: Axis of the 1.000 in hole
 - Datum C: Axis of the 0.500 in hole
 
-The drawing should include these position callouts:
+The drawing includes these position callouts:
 
 - Position of 1.000 in hole: DIA 0.005 | A | B | C
 - Position of 0.500 in hole: DIA 0.010 | A | B
-
-[Insert Picture 6: Link CAD model.]
-
-[Insert Picture 7: Link equation table or global variables.]
-
-[Insert Picture 8: Completed link drawing in third-angle projection.]
 
 ## Process Documentation
 
 I began by reviewing the geometry and dimensions from the previous bracket assignment. The bracket geometry was separated into strength-driven dimensions and fit-controlled dimensions. The rear web thickness was identified as the primary strength-driven feature because it resists the bending load. The jaw gap was identified as the primary fit-controlled feature because it must slide over the T-beam.
 
-I used the bending-stress equation to control the rear web thickness directly in CAD. This connected the engineering calculation to the model so that a change to the load, material, or body depth would update the model without manually editing the sketch.
+I used the bending-stress equation to determine the rear web thickness. This connected the engineering analysis to the CAD design basis and showed how a change to the load, material, or body depth affects the required web thickness.
 
 While creating the drawings, I checked that the views were arranged in third-angle projection and that the important dimensions were visible without duplicate dimensions. I also verified that the material, finish, tolerance block, title block, drawing number, revision, and third-angle projection symbol were included.
 
@@ -179,6 +171,5 @@ I also learned that tolerances communicate design intent. The 1.499 in gap needs
 
 ## CAD Download Links
 
-- **Bracket CAD file:** [Insert bracket CAD download link]
-- **Link CAD file:** [Insert link CAD download link]
-- **Parametric equation file:** [Insert CAD equation table or master-model link]
+- **Bracket CAD file:** [Download the bracket STEP file](Kaleb_Dedrick_MEGR2157_Bracket.step)
+- **Link CAD file:** [Download the link STEP file](Kaleb_Dedrick_MEGR2157_Link_Parametric.step)
