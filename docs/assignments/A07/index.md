@@ -30,7 +30,7 @@ The part is modeled as a continuous solid bracket. The generic alloy-steel mater
 
 ## 2 Step Two Static Study Setup
 
-![Figure 2. fixture and load overlay on the bracket.](assets/Picture1.png)
+![Figure 2. fixture and load overlay on the bracket.](Picture1.png)
 
 *Figure 2. fixture and load overlay on the bracket.*
 
@@ -40,7 +40,7 @@ The fixture, load direction, load region, connection, and units are identified d
 
 Each design is evaluated at coarse, medium, and fine mesh densities. The medium-to-fine comparison is used to judge convergence because the fine mesh is the final resolution used to report the design.
 
-![Figure 3. coarse, medium, and fine grid overlays placed on the actual bracket model.](assets/Picture3.png)
+![Figure 3. coarse, medium, and fine grid overlays placed on the actual bracket model.](Picture3.png)
 
 *Figure 3. coarse, medium, and fine grid overlays placed on the actual bracket model.*
 
@@ -57,7 +57,7 @@ Each design is evaluated at coarse, medium, and fine mesh densities. The medium-
 
 ## 4 Convergence Assessment and Design Comparison
 
-![Figure 4. mesh-response trends.](assets/Picture4.png)
+![Figure 4. mesh-response trends.](Picture4.png)
 
 *Figure 4. mesh-response trends.*
 
@@ -97,7 +97,7 @@ Design III further lightens the noncritical outer body. Stress and displacement 
 
 The following setup is a reasonable starting point for a simple linear-static bracket study. The main goal is to restrain the real mounting surface and apply the load where the cylindrical contact would transfer force into the bracket.
 
-![Figure 5. fixture and load overlay on the bracket.](assets/Picture5.png)
+![Figure 5. fixture and load overlay on the bracket.](Picture5.png)
 
 *Figure 5. fixture and load overlay on the bracket.*
 
@@ -113,7 +113,7 @@ The following setup is a reasonable starting point for a simple linear-static br
 
 ## 9 Mesh Documentation and Results Reporting
 
-![Figure 6. coarse, medium, and fine](assets/Picture6.png)
+![Figure 6. coarse, medium, and fine](Picture6.png)
 
 *Figure 6. coarse, medium, and fine*
 
