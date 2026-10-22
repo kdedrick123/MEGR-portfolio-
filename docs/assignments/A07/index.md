@@ -12,7 +12,7 @@ Kaleb Dedrick
 
 This document organizes the three missing analysis items requested for the bracket assignment: a material/model view, a boundary-condition view, and mesh-convergence documentation.
 
-![Figure 1 SolidWorks model view.](assets/Picture2.png)
+![Figure 1 SolidWorks model view.](Picture2.png)
 
 *Figure 1 SolidWorks model view.*
 
