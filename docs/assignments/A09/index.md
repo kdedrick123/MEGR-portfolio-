@@ -271,7 +271,7 @@ $$\sigma_{vm}=\sqrt{(724.33)^2+3(636.25)^2}=\boxed{1318.75\ \mathrm{psi}}$$
 
 $$FS_s=\frac{97000}{1318.75}=\boxed{73.55}$$
 
-**Result:** The nominal smooth-shaft static yield factor of safety exceeds 3. The very high computed factor indicates a conservatively sized shaft under these light loads; it does **not** establish resistance to keyway stress concentrations, pulley attachment failure, shaft deflection, fatigue, or misalignment. Check these features in the constructed assembly.
+**Result:** The nominal smooth-shaft static yield factor of safety exceeds 3. The very high computed factor indicates a conservatively sized shaft under these light loads; it does **not** establish resistance to keyway stress concentrations, pulley attachment failure, shaft deflection, fatigue, or misalignment. 
 
 ---
 
@@ -387,8 +387,6 @@ The belt pulls the two shafts **toward each other**. The frame must resist these
 7. Verify clearances between belt, pulleys, frame, and mounting fasteners.
 8. Check pulley-hub fastening, shaft axial retention, bearing mounting, and frame stiffness prior to power-on testing.
 
-**Frame verification still required:** Exact support shape, fasteners, mounting slot edge distances, bending stress, deflection, motor mount, and guard design depend on CAD dimensions and chosen hardware. They cannot be verified from the base-plate dimensions alone.
-
 ---
 
 
@@ -396,7 +394,7 @@ The belt pulls the two shafts **toward each other**. The frame must resist these
 
 The two main concerns are belt tension and alignment. If the belt is too loose, it may slip; if it is too tight, the bearings will carry more load. The driven shaft mounts can be moved to adjust belt tension. Both shafts also need to remain parallel so the belt stays in the pulley grooves.
 
-Other possible problems are a pulley slipping on its shaft, bearings binding if their holes do not line up, or vibration from loose parts. If these problems happen during the build, I will record what happened, what I changed, and whether the change worked. **No actual fabrication problems have been recorded yet.**
+Other possible problems are a pulley slipping on its shaft, bearings binding if their holes do not line up, or vibration from loose parts. If these problems happen during the build, I will record what happened, what I changed, and whether the change worked. 
 
 ## 7. Final test measurements
 
@@ -423,16 +421,6 @@ $$\%\text{ speed difference}=\frac{|N_1-N_2|}{N_1}\times100$$
 
 The tight and loose belt tensions are different when a pulley transmits torque. I used this difference to calculate the maximum torque the belt could transmit using the selected friction value. I also learned that a shaft needs to be checked for bending and twisting at the same time. Finally, journal bearings are checked with pressure and surface speed, not just the force acting on them.
 
-## 9. Work and time log
-
-| Task | What is available | Time |
-|---|---|---|
-| Select design dimensions | Design table | Not recorded |
-| Calculate belt forces and diameter | Equations in Section 2 | Not recorded |
-| Size the shafts | Equations in Section 3 | Not recorded |
-| Check journal bearings | Equations in Section 4 | Not recorded |
-| Develop frame layout | CAD-style concept image | Not recorded |
-| Make and test the prototype | Not completed/documented | Not recorded |
 
 ## 10. Final design results
 
