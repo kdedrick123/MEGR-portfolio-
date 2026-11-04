@@ -9,7 +9,7 @@ The goal of this project is to design a belt-driven system that transfers rotati
 
 ## Pulley system concept
 
-![Simple pulley CAD concept](assets/simple_cad_concept.png)
+![Simple pulley CAD concept](simple_cad_concept.png)
 
 *Figure 1. Simple CAD-style concept of the proposed pulley system. This is a concept picture, not a completed SolidWorks model or built prototype.*
 
@@ -45,7 +45,7 @@ These are the values used to work through the design. The friction coefficient a
 
 ### 2.2 Free-body diagram — belt and pulleys
 
-![Belt and pulley FBD](assets/belt_pulley_fbd.png)
+![Belt and pulley FBD](belt_pulley_fbd.png)
 
 The upper run is labeled the tight side (`T1`); the lower run is labeled the loose side (`T2`). Each pulley receives the sum of the belt-span forces directed toward the opposite pulley. The effective tangential drive force is the **difference** between the tensions, `T1 − T2`. The bearing load is approximately the **sum**, `T1 + T2`, for parallel belt spans.
 
@@ -189,7 +189,7 @@ $$P=0.1568(745.7)=\boxed{116.9\ \mathrm{W}}$$
 
 ### 3.2 Free-body diagram — shaft
 
-![Shaft FBD](assets/shaft_fbd.png)
+![Shaft FBD](shaft_fbd.png)
 
 A pulley is centered between supports `A` and `B`. The net transverse belt load of `10.0 lbf` acts through the pulley center. The shaft also transmits `6.588 lbf·in` of torque. The illustration depicts an isolated pulley shaft; actual support orientation in CAD may be horizontal or vertical as long as the load and reaction directions are consistent.
 
@@ -292,7 +292,7 @@ Design screening limits for selected bronze bearing material:
 
 ### 4.2 Free-body diagram — single bearing
 
-![Journal bearing FBD](assets/bearing_fbd.png)
+![Journal bearing FBD](bearing_fbd.png)
 
 The bearing receives a `5.000 lbf` radial load from the shaft and transfers an equal and opposite force to the housing/frame. Bearing projected area is diameter multiplied by axial length, **not** the cylindrical curved surface area.
 
@@ -459,4 +459,3 @@ The tight and loose belt tensions are different when a pulley transmits torque. 
 - *Machinery's Handbook*, journal bearing PV tables referenced in the assignment.
 - D. J. Dunn, *Solid Mechanics – Dynamics: Tutorial – Pulley Drive Systems* (assigned reading).
 
-**Note:** The calculations are a first design check. The concept pictures are not manufacturing drawings, and the physical test section has not been completed.
