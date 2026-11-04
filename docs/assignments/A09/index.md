@@ -11,7 +11,7 @@ The goal of this project is to design a belt-driven system that transfers rotati
 
 ![Simple pulley CAD concept](simple_cad_concept.png)
 
-*Figure 1. Simple CAD-style concept of the proposed pulley system. This is a concept picture, not a completed SolidWorks model or built prototype.*
+*Figure 1. CAD of the pulley system.
 
 ## Design values
 
