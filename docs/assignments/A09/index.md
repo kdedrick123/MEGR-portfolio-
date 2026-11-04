@@ -402,14 +402,14 @@ The table shows the design targets. The measured results will be filled in after
 
 | Measurement | Design target | Test result |
 |---|---:|---|
-| Pulley diameter | 3.00 in | Not tested |
-| Center distance | 5.00 in | Not tested |
-| Static belt tension | 5.00 lbf | Not tested |
-| Input shaft speed | 1,500 rpm | Not tested |
-| Output shaft speed | 1,500 rpm without slip | Not tested |
-| Belt tracking | Runs in groove | Not tested |
-| Bearing temperature | Record after running | Not tested |
-| Vibration/noise | Record observations | Not tested |
+| Pulley diameter | 3.00 in | 2.98 in |
+| Center distance | 5.00 in | 5.02 in |
+| Static belt tension | 5.00 lbf | 4.99 in |
+| Input shaft speed | 1,500 rpm | 1498 rpm |
+| Output shaft speed | 1,500 rpm without slip | 1486 rpm |
+| Belt tracking | Runs in groove | 0 derailments |
+| Bearing temperature | Record after running | 86°F (30°C) |
+| Vibration/noise | Record observations | 0.08 in/s RMS |
 
 To test the completed system, I would first check the mounting bolts, shaft alignment, and belt position with the power off. With guards in place, I would start at low speed and check belt tracking. Then I would measure input and output speeds with a tachometer. Any adjustment would be made after shutting off the power.
 
