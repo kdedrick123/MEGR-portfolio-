@@ -1,31 +1,29 @@
-MEGR 2156 — Assignment 8: Pulley System
-Project: Belt-driven power transmission between two parallel shafts  
-Course: MEGR 2156 — Sophomore Design  
-Project status: Preliminary engineering analysis and CAD/build documentation; experimental results pending.
-1. Objective
-Design a two-pulley, open-belt drive system capable of transmitting power between two parallel shafts with a pulley center distance of 4–6 in, pulley diameters of 3 in, shaft speed of 1,000–2,000 rpm, stationary belt tension of 4–6 lbf, and minimum static design safety factor of 3.
-1.1 Selected design specifications
-Parameter	Value
-Pulley 1 and 2 diameter, `D`	3.000 in (belt pitch diameter used in calculations)
-Shaft center distance, `C`	5.000 in
-Input speed, `N1`	1,500 rpm
-Stationary belt tension per span, `T0`	5.000 lbf
-Belt–pulley friction coefficient, `μ`	0.30
-Belt material	Polyurethane elastomer
-Belt tensile yield strength, `Sy,b`	471 psi (at 20% strain per assignment)
-Selected round-belt diameter	0.250 in
-Pulley material	6061-T6 aluminum
-Shaft material	Hardened AISI 1060 steel
-Shaft design yield strength, `Sy,s`	97,000 psi (material/heat-treatment condition to be verified)
-Selected shaft diameter	0.375 in
-Distance between bearings on each shaft, `Ls`	1.500 in
-Bearing material	Oil-impregnated sintered bronze
-Bearing length, `Lb`	0.500 in
-Frame material	6061-T6 aluminum
-Preliminary base plate	10 × 5 × 0.25 in
-Minimum safety factor	3.0
-Analysis conventions: Belt weight, centrifugal tension, speed-dependent friction, elastic creep, transient loads, groove wedging, and bearing frictional losses are outside the initial static sizing model. The belt-tension results therefore represent the limiting no-slip condition for the selected friction coefficient, rather than verified steady-state operating tension. The final purchased belt and pulley geometry must be checked for their real operating limits.
----
+MEGR 2156 – Assignment 8: Pulley System
+Sophomore Design Project  
+Status: Design calculations and concept images completed. Physical build and testing have not been documented.
+Project overview
+The goal of this project is to design a belt-driven system that transfers rotation between two parallel shafts. Both pulleys are 3 inches in diameter and are spaced 5 inches apart. I selected a round polyurethane belt, aluminum pulleys and frame, steel shafts, and bronze sleeve bearings. The calculations below cover the belt forces, shaft size, and bearing pressure.
+Pulley system concept
+![Simple pulley CAD concept](assets/simple_cad_concept.png)
+Figure 1. Simple CAD-style concept of the proposed pulley system. This is a concept picture, not a completed SolidWorks model or built prototype.
+Design values
+Item	Value
+Pulley diameter (both)	3.00 in
+Pulley center distance	5.00 in
+Rotational speed	1,500 rpm
+Static belt tension	5.00 lbf
+Friction coefficient used	0.30
+Belt	1/4-in polyurethane round belt
+Belt yield strength	471 psi at 20% strain (assignment)
+Pulleys and frame	6061-T6 aluminum
+Shaft	3/8-in AISI 1060 hardened steel
+Shaft yield strength used	97,000 psi
+Bearings	Oil-impregnated sintered bronze
+Bearing length	0.50 in
+Shaft bearing spacing	1.50 in
+Frame base	10 × 5 × 0.25 in
+Required factor of safety	At least 3
+These are the values used to work through the design. The friction coefficient and material properties must match the parts selected for an actual build.
 2. Belt and pulley design (25%)
 2.1 Knowns and unknowns
 Known: `D1 = D2 = 3.000 in`; `C = 5.000 in`; `N1 = 1500 rpm`; `T0 = 5.000 lbf`; `μ = 0.30`; `Sy,b = 471 psi`; required `FS = 3`.
@@ -212,104 +210,52 @@ Verify clearances between belt, pulleys, frame, and mounting fasteners.
 Check pulley-hub fastening, shaft axial retention, bearing mounting, and frame stiffness prior to power-on testing.
 Frame verification still required: Exact support shape, fasteners, mounting slot edge distances, bending stress, deflection, motor mount, and guard design depend on CAD dimensions and chosen hardware. They cannot be verified from the base-plate dimensions alone.
 ---
-6. Design challenges, troubleshooting, and corrections
-The following are design challenges to check and document. Mark each issue as encountered only when observed during CAD, assembly, or testing; replace the blank observation fields with your actual findings.
-Design or build issue	Why it matters	Correction / verification step	Actual observation
-Belt slips under load	Available friction may be insufficient for transmitted torque	Measure static tension, inspect groove cleanliness, align shafts, reduce load if necessary	To be recorded
-Belt too loose or too tight	Insufficient tension causes slip; excessive tension loads bearings and stretches belt	Use driven-shaft slots to adjust tension evenly; record measured pretension	To be recorded
-Pulley axes not aligned	Causes tracking error, wear, and vibration	Align pulley faces and shaft axes with straightedge/caliper; verify under slow rotation	To be recorded
-Shaft fits tightly or binds in bronze bearing	Incorrect bore fit or misalignment increases heat/friction	Check selected bearing fit and shaft finish; align bearing housings before tightening	To be recorded
-Pulley slips on steel shaft	Hub connection may fail before the shaft yields	Provide a suitable clamping hub, key, or manufacturer-rated shaft attachment	To be recorded
-Vibration during operation	Eccentricity, unbalanced pulley, loose hardware, or belt joint can excite motion	Check runout, fastener tightness, belt joint, and frame rigidity	To be recorded
-Measured rpm differs from target	Drive slip, motor speed variations, or loading change output rpm	Measure input/output rpm with tachometer and compare with 1:1 ideal speed ratio	To be recorded
-6.1 Problem-description paragraph for the portfolio
-The main design challenges involve coordinating belt geometry, shaft alignment, pulley attachment, and adjustable tensioning. Selecting a belt based on tensile area alone is not sufficient, because slip resistance also depends on the tension ratio and contact friction. The shaft support layout must keep both pulleys coplanar, and the driven shaft requires a tensioning adjustment without changing its orientation. The bearing bores and mounting locations require accurate alignment to avoid binding and unnecessary friction. During fabrication and testing, observed fit problems, slipping, noise, vibration, and changes in speed will be documented along with the corrective action and retest outcome.
----
-7. Final test plan and measurement record
-No experimental measurements have yet been provided. The table separates calculated design values from fields that must be populated by actual tests. Do not report predicted values as observed measurements.
-7.1 Setup and safety
-Confirm motor, electrical connection, guards, and emergency shutoff are appropriate for the test.
-Lock down the frame and verify no belt or pulley contacts the structure.
-Measure pulley diameters, shaft spacing, and initial belt pretension with power off.
-Run at low speed first; observe vibration, tracking, and unusual noise from a safe position behind the guards.
-Increase speed toward 1500 rpm only if all components operate normally.
-Use a tachometer to measure both shaft speeds; use suitable instrumentation for belt force and output torque if available.
-Stop and disconnect power before making tension or alignment adjustments.
-7.2 Results and expected targets
-Parameter	Calculated / selected target	Actual measured value	Instrument / method
-Driving pulley pitch diameter	3.000 in	Pending	Caliper / pulley drawing
-Driven pulley pitch diameter	3.000 in	Pending	Caliper / pulley drawing
-Shaft center distance	5.000 in	Pending	Caliper / tape
-Initial static belt tension per span	5.000 lbf	Pending	Calibrated belt-tension method
-Input shaft speed	1500 rpm	Pending	Tachometer
-Output shaft speed (no slip)	1500 rpm	Pending	Tachometer
-Nominal speed ratio	1.000	Pending	Calculated from measured speeds
-Limiting no-slip tight-side force	7.196 lbf	Not directly measured	Belt force instrument if used
-Limiting no-slip loose-side force	2.804 lbf	Not directly measured	Belt force instrument if used
-Theoretical limiting torque	6.588 lbf·in	Pending, if torque-tested	Torque sensor / brake test
-Theoretical friction-limited power	0.1568 hp	Pending, if power-tested	Torque and rpm
-Bearing temperature	No calculated target	Pending	Contact thermometer
-Slipping, belt tracking, vibration	Stable/no visible slip	Pending	Inspection and measurements
-7.3 Processing test results
-If actual test speeds are `N1,test` and `N2,test`, compute output-speed deviation from ideal 1:1 operation:
-$$%\ \mathrm{speed\ deviation}=100\left|\frac{N_{1,\mathrm{test}}-N_{2,\mathrm{test}}}{N_{1,\mathrm{test}}}\right|$$
-If measured shaft output torque and rpm are available:
-$$HP_{\mathrm{out}}=\frac{M_{\mathrm{out}}(\mathrm{lbf\cdot in}),N_{2,\mathrm{test}}(\mathrm{rpm})}{63025}$$
-For measured input and output torque:
-$$\eta=\frac{M_{\mathrm{out}}N_{2,\mathrm{test}}}{M_{\mathrm{in}}N_{1,\mathrm{test}}}\times100%$$
-Experimental conclusion placeholder: The assembled pulley system was tested at _____ rpm on _____ (date). The measured output speed was _____ rpm, corresponding to _____% speed deviation. Belt tracking was _____, bearing temperatures were _____, and the main corrective action was _____. Based on these measurements, the system _____ (did / did not) meet its tested performance criteria.
----
-8. Engineering lessons learned (5%)
-Friction governs torque transmission. The tight-to-loose tension ratio depends on the belt/pulley interface and wrap angle. Tensile stress alone cannot establish whether the drive will transmit the desired torque without slipping.
-Nominal shaft strength is not the whole design. Even a shaft with a very high smooth-section factor of safety needs a properly secured hub, sufficient stiffness, and correctly aligned bearings.
-PV is a combined bearing selection check. The surface velocity and projected pressure must be examined together to screen possible porous-metal bearing materials.
-Frame geometry affects drive reliability. Adjustable supports must change center distance without rotating a shaft out of parallel or moving the pulleys out of their common plane.
-Testing verifies analytical predictions. Measured tension, input/output rpm, temperature, and motion quality determine whether simplified calculations represent the physical prototype.
----
-9. Project photo and time log
-Date	Activity / revision	Photo or CAD screenshot	Actual elapsed time
-Pending	Concept sketch and FBDs	Add image	Record time
-Pending	Belt and shaft calculations	Add image	Record time
-Pending	Bearing selection and frame CAD	Add image	Record time
-Pending	Fabrication and first assembly	Add image	Record time
-Pending	Adjustments and final tests	Add image	Record time
-	Total recorded hours		Pending
-Required images: Concept sketch, belt/pulley FBD, shaft FBD, bearing FBD, part CAD screenshots, full CAD assembly, fabricated components, test setup, and final build.
----
-10. Final calculation summary
-Quantity	Result
-Belt wrap angle	180°
-Maximum tight/loose tension ratio	2.5663
-Tight-side tension	7.1960 lbf
-Loose-side tension	2.8040 lbf
-Minimum belt cross section	0.045834 in²
-Minimum round-belt diameter	0.24157 in
-Selected belt diameter	0.250 in
-Nominal tensile safety factor	3.21
-Geometric belt centerline length	19.4248 in
-Ideal belt speed	1178.10 ft/min
-Maximum ideal tangential drive force	4.3920 lbf
-Theoretical limiting torque	6.5880 lbf·in
-Theoretical limiting ideal power	0.1568 hp
-Load per shaft	10.000 lbf
-Load per bearing	5.000 lbf
-Maximum shaft bending moment	3.750 lbf·in
-Minimum smooth shaft diameter	0.12908 in
-Selected shaft diameter	0.375 in
-Shaft bending stress	724.33 psi
-Shaft torsional shear stress	636.25 psi
-Shaft equivalent von Mises stress	1318.75 psi
-Nominal static shaft safety factor	73.55
-Bearing projected area	0.1875 in²
-Bearing pressure	26.667 psi
-Bearing sliding speed	147.262 ft/min
-Bearing PV	3927.0 psi·ft/min
-Minimum bearing length at PV 20,000	0.09817 in
-Selected bearing length	0.500 in
-11. References and design validation
-MEGR 2156 Assignment 8: Pulley System, instructor-provided assignment description, design requirements, polyurethane belt yield strength, and required calculations.
-McMaster-Carr: Round Belts — supplier catalog for matching diameter, joining method, and length designation.
-D. J. Dunn, Solid Mechanics — Dynamics: Tutorial — Pulley Drive Systems — course-provided reading.
-Machinery's Handbook, bearing PV and porous-metal bearing reference, p. 2440 as assigned — confirm edition and exact material ratings.
-AISI 1060 steel — purchase a known hardened/tempered grade and verify the actual heat-treatment yield value from the supplier's datasheet.
-Next design checks before fabrication: Actual polyurethane belt rated diameter/smallest pulley, recommended installation tension and free loop length, pulley groove shape and pitch diameter, real friction at the operating speed, shaft-to-hub torque capacity, shaft deflection and stress risers, bearing manufacturer PV and fit limits, frame-support strength, and complete rotating-parts guarding.
+
+6. Problems to check during assembly
+The two main concerns are belt tension and alignment. If the belt is too loose, it may slip; if it is too tight, the bearings will carry more load. The driven shaft mounts can be moved to adjust belt tension. Both shafts also need to remain parallel so the belt stays in the pulley grooves.
+Other possible problems are a pulley slipping on its shaft, bearings binding if their holes do not line up, or vibration from loose parts. If these problems happen during the build, I will record what happened, what I changed, and whether the change worked. No actual fabrication problems have been recorded yet.
+7. Final test measurements
+The table shows the design targets. The measured results will be filled in after the system is built and tested.
+Measurement	Design target	Test result
+Pulley diameter	3.00 in	Not tested
+Center distance	5.00 in	Not tested
+Static belt tension	5.00 lbf	Not tested
+Input shaft speed	1,500 rpm	Not tested
+Output shaft speed	1,500 rpm without slip	Not tested
+Belt tracking	Runs in groove	Not tested
+Bearing temperature	Record after running	Not tested
+Vibration/noise	Record observations	Not tested
+To test the completed system, I would first check the mounting bolts, shaft alignment, and belt position with the power off. With guards in place, I would start at low speed and check belt tracking. Then I would measure input and output speeds with a tachometer. Any adjustment would be made after shutting off the power.
+Speed difference can be calculated with:
+$$%\text{ speed difference}=\frac{|N_1-N_2|}{N_1}\times100$$
+8. What I learned from the design calculations
+The tight and loose belt tensions are different when a pulley transmits torque. I used this difference to calculate the maximum torque the belt could transmit using the selected friction value. I also learned that a shaft needs to be checked for bending and twisting at the same time. Finally, journal bearings are checked with pressure and surface speed, not just the force acting on them.
+9. Work and time log
+Task	What is available	Time
+Select design dimensions	Design table	Not recorded
+Calculate belt forces and diameter	Equations in Section 2	Not recorded
+Size the shafts	Equations in Section 3	Not recorded
+Check journal bearings	Equations in Section 4	Not recorded
+Develop frame layout	CAD-style concept image	Not recorded
+Make and test the prototype	Not completed/documented	Not recorded
+10. Final design results
+Result	Value
+Tight-side belt force	7.196 lbf
+Loose-side belt force	2.804 lbf
+Minimum belt diameter	0.2416 in
+Chosen belt diameter	0.250 in
+Belt safety factor (tensile check)	3.21
+Belt centerline length	19.425 in
+Limiting torque from belt tension calculation	6.588 lbf·in
+Minimum shaft diameter	0.1291 in
+Chosen shaft diameter	0.375 in
+Shaft safety factor (smooth shaft, static load)	73.6
+Pressure on each bearing	26.67 psi
+Bearing surface velocity	147.26 ft/min
+Bearing PV	3,927 psi·ft/min
+References
+MEGR 2156 Assignment 8: Pulley System (assignment instructions).
+McMaster-Carr Round Belts.
+Machinery's Handbook, journal bearing PV tables referenced in the assignment.
+D. J. Dunn, Solid Mechanics – Dynamics: Tutorial – Pulley Drive Systems (assigned reading).
+Note: The calculations are a first design check. The concept pictures are not manufacturing drawings, and the physical test section has not been completed.
