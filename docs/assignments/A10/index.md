@@ -4,8 +4,6 @@
 **Sophomore Design — Part 1**  
 **Project:** Bench-top dual-lead-screw tensile tester
 
-> This project page follows my A10 report. The figures labeled as references are example concepts or analyses included in the report; they are not presented as independently verified simulation results from my final CAD assembly.
-
 ## Project overview
 
 For this assignment, I developed a concept for a bench-top tensile tester using two lead screws to move a crosshead and apply an axial pulling force to a test specimen. The target is a total load of **2 kN** and a crosshead speed of **1–50 mm/min**. I used hand calculations, component research, CAD models, and reference FEA studies to evaluate the design. The machine is intended to operate mechanically, without electronic control software.
