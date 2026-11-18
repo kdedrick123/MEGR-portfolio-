@@ -375,7 +375,6 @@ The following are the **costs listed in the submitted A11 report**, not updated 
 | W-74 | 1 | Tungsten material | $3,431.54 |
 | | | **Reported materials total** | **$305,657.57** |
 
-**Cost note:** The rhodium and tungsten line items are exceptionally expensive relative to the remaining parts and should be verified for necessity, quantity, and pricing. The above table preserves the original report's cost figures rather than modifying the design assumptions.
 
 ### Engineering labor estimate
 
@@ -426,7 +425,6 @@ The downloadable SolidWorks CAD package should contain the assembly, associated 
 
 **[Download the complete A11 SolidWorks CAD package](A11_Kaleb_Dedrick_SolidWorks_CAD.zip)**
 
-> **Upload required:** The link above is a filename placeholder, not an existing CAD archive in this photo package. Upload your actual SolidWorks ZIP to the **same GitHub folder as this `README.md`** using that exact filename (or replace the Markdown link with the actual ZIP filename or sharing URL). Do not remove this note until you have uploaded and tested the real CAD download.
 
 ## 14. Additional reference material
 
@@ -437,8 +435,4 @@ The supplied image archive also contains a SolidWorks evaluation-values screensh
 
 *Figure 43. SolidWorks evaluation values screenshot from the supplied images.*
 
-
----
-
-**Documentation note:** This ePortfolio page follows the reported A11 calculations and figures. Where values or verification details are inconsistent, they are labeled as reported rather than silently corrected. The final fabrication design requires consistent material properties, load conditions, fit tolerances, and validated safety factors.
 
